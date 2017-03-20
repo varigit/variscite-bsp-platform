@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="morty"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/varigit" name="variscite"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="git://github.com/meta-qt5" name="QT5"/>
+
+  <project remote="yocto" revision="6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f" upstream="morty"  name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="56a1460777d1e24b1dfb426cad2b103740936a83" upstream="morty"  name="meta-freescale" path="sources/meta-freescale" />
+
+  <project remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty" name="meta-openembedded" path="sources/meta-openembedded" />
+
+  <project remote="variscite" revision="morty" name="variscite-bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="freescale" revision="4be3db25959e741ac9164a32c82b8c09b59213ad" upstream="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="dd482aeb7913c099c69f82362776bd92b584553c" upstream="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="7d37ae2adec5cc5ea27367ce125bc7bce2310ca1" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="variscite" name="meta-variscite-fslc" path="sources/meta-variscite-fslc" revision="morty" />
+
+</manifest>
