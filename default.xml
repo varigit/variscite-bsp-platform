@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="morty"/>
+  <default sync-j="4" revision="pyro"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/varigit" name="variscite"/>
-  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5" name="QT5"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+  <remote fetch="https://github.com/Freescale"     name="freescale"/>
+  <remote fetch="git://github.com/meta-qt5"        name="QT5"/>
+  <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
+  <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto" revision="6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f" upstream="morty"  name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="56a1460777d1e24b1dfb426cad2b103740936a83" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="6bd890d9e011014cf323e61267f8b256949d44aa" upstream="pyro" name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="6f66d087e7d9c3560601ed969c21f22a1f26f461" upstream="pyro" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="a73a14247afbbcf840bab7b76f953004fe109253" upstream="pyro" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5"       revision="31761f625d2151e9d94d0d83067f90a5da6508e1" upstream="pyro" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="1569eeb9cc1b87632abbf35fbb05f4ac4eeb3987" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="variscite" revision="a06c79ec9d6a0fc2816ad7b060220e2c864913bc" upstream="pyro" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
-  <project remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
-
-  <project remote="variscite" revision="morty" name="variscite-bsp-base" path="sources/base">
+  <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
-
-  <project remote="freescale" revision="4be3db25959e741ac9164a32c82b8c09b59213ad" upstream="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="dd482aeb7913c099c69f82362776bd92b584553c" upstream="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="7d37ae2adec5cc5ea27367ce125bc7bce2310ca1" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="variscite" revision="169426f506575fa2c8f2529f4254bfb7f89e617e" upstream="morty" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
 </manifest>

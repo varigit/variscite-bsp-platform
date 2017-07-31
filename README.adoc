@@ -2,9 +2,9 @@
 
 This branch is based on 
 
-* Poky: yocto-2.2.1 (morty-16.0.1)
-* FSL Community BSP: 2.2
-* QT: 5.7.1
+* Poky: yocto-2.3.1 (pyro-17.0.1)
+* FSL Community BSP: pyro
+* QT: 5.8
 
 = Variscite BSP Platform
 
@@ -21,9 +21,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir ~/var-fsl-community-yocto
-$ cd ~/var-fsl-community-yocto
-$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b morty
+$: mkdir ~/var-fslc-yocto
+$ cd ~/var-fslc-yocto
+$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b pyro
 $ repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
@@ -31,9 +31,9 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: source ./setup-environment build
-$: bitbake core-image-minimal
+$: MACHINE=<machine> DISTRO=<distro> source ./setup-environment <build directory>
+$: bitbake core-image-base
 
 You can use any directory to host your build.
 
-The source code is checked out at `var-fsl-community-yocto/sources`.
+The source code is checked out at `var-fslc-yocto/sources`.
