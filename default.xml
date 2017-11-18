@@ -17,7 +17,7 @@
   <project remote="freescale" revision="rocko" upstream="rocko" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="rocko" upstream="rocko" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="QT5"       revision="rocko" upstream="rocko" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="master" upstream="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="OSSystems" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" upstream="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="sbabic"    revision="rocko" upstream="rocko" name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="variscite" revision="rocko" upstream="rocko" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
