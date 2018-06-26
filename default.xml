@@ -11,15 +11,15 @@
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto"     revision="c2b641c8a0c4fd71fcb477d788a740c2c26cddce" upstream="rocko"  name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="470cd54e44913f81c76538641bbdd80574624677" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe"        revision="6e3fc5b8d904d06e3aa77e9ec9968ab37a798188" upstream="rocko"  name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="37c79046d13d10ab16561dddc764c0164ee5deaa" upstream="rocko"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="7250d0d2c3d552dfdb1b7dcc414ee55169bec1c8" upstream="rocko"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="d87335a50a9dd35d890786edbd79b8953fdaa11a" upstream="rocko"  name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" upstream="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="yocto"     revision="90414ecd5cf72995074f3dc6b05cfbee0a1dab67" upstream="rocko"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="affb4b17d3d97ae45bdc4887268ba1d88fccd876" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="a02324e27f7a7ac630dab616f46a8bad7fe2c071" upstream="rocko"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="0ec6d7e206705702b5b534611754de0787f92b72" upstream="rocko"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5"       revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="1cd38d701a49eade80a04140f70d3383117b9745" upstream="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="sbabic"    revision="0fb115e97187c069f0da90163f1f374a6b7a4af7" upstream="rocko"  name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="35b12bc403ca5e5e5fb9e32af024855834497aa6" upstream="rocko"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="43e838b8ec48d8964d12eaa1f3aa37109006d408" upstream="rocko"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
