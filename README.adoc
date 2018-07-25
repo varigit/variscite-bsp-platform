@@ -1,11 +1,3 @@
-= Variscite Release Notes
-
-This branch is based on 
-
-* Poky: yocto-2.4 (rocko-18.0.0)
-* FSL Community BSP: rocko
-* QT: 5.9.2
-
 = Variscite BSP Platform
 
 To get the BSP you need to have `repo` installed and use it as:
@@ -22,9 +14,9 @@ Download the BSP source:
 [source,console]
 $: PATH=${PATH}:~/bin
 $: mkdir ~/var-fslc-yocto
-$ cd ~/var-fslc-yocto
-$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b rocko
-$ repo sync -j4
+$: cd ~/var-fslc-yocto
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b sumo
+$: repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
 
