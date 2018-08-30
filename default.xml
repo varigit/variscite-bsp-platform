@@ -19,7 +19,7 @@
   <project remote="QT5"       revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"  name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="1cd38d701a49eade80a04140f70d3383117b9745" upstream="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="sbabic"    revision="0fb115e97187c069f0da90163f1f374a6b7a4af7" upstream="rocko"  name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="43e838b8ec48d8964d12eaa1f3aa37109006d408" upstream="rocko"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="50c0e5d853d0462140ae91978ce380f25d59b1ba" upstream="rocko"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
