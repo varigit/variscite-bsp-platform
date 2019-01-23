@@ -11,14 +11,14 @@
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto"     revision="5887f81bb585d0a697b91daf7f7dd6ccb1d444e2" upstream="sumo"  name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="50fbef4593f79949ab6c67b2582d8b5c8b24838a" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe"        revision="b0950aeff5b630256bb5e25ca15f4d59c115e7c1" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="42c913b8fd266f72950a9ce305d316c0ecb64343" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="yocto"     revision="623b77885051174d0e05198843e739110977bd18" upstream="sumo"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="407c6cf408969445031a492e2d25e0e2749582ea" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="88a29631809d1af0df618245430db29f2a7012b5" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" upstream="sumo"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="4b96f70a083eacfc4ff4a45d4efbb2d131f88c82" upstream="sumo"  name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="d807b901b0b68b478093964bd60a77b9376b3f12" upstream="master" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="dae0d3e906e764e02a8b6357e7698bfde278fa6e" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="QT5"       revision="d4e7f73d04e8448d326b6f89908701e304e37d65" upstream="sumo"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="variscite" revision="42cda7492336a73bdbe8c1c6732a3fd9a9d8d557" upstream="sumo"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
