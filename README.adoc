@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/var-fslc-yocto
 $: cd ~/var-fslc-yocto
-$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b sumo
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b thud
 $: repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.

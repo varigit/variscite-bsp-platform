@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="sumo"/>
+  <default sync-j="4" revision="thud"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
-  <remote fetch="git://github.com/meta-qt5"        name="QT5"/>
+  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto"     revision="623b77885051174d0e05198843e739110977bd18" upstream="sumo"  name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="407c6cf408969445031a492e2d25e0e2749582ea" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe"        revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="88a29631809d1af0df618245430db29f2a7012b5" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" upstream="sumo"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="d4e7f73d04e8448d326b6f89908701e304e37d65" upstream="sumo"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="yocto"     revision="b904775c2b82f110a9e0ae9281be452546916fea" upstream="thud"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="85561882cc455ccf45ddb16039fa3811cf7baa8b" upstream="thud"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="cca27b5ea7569d2730ee5da7ee7f47b39d775d89" upstream="thud"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="47848bff9478999019947f69a719b3d2c2a6b558" upstream="thud"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="5c6c00eef55823be87a34b4ef06560a21366938c" upstream="thud"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5"       revision="fb4ef4dd7bccfb53a5186c031105ea29320420ce" upstream="thud"  name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="61cd8e06734e64bbf61888d2693b86e06dcae676" upstream="sumo"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="sbabic"    revision="4ab05dff6a2a0c5c898b33af0905d2cebcaf6767" upstream="thud"  name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="variscite" revision="570c8444ca29eec0cdfbcd72fa620aa20b0ac075" upstream="thud"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
