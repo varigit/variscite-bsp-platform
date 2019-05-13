@@ -12,11 +12,11 @@
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
   <project remote="yocto"     revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="thud"   name="poky"                    path="sources/poky"/>
-  <project remote="yocto"     revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"   name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="46fcbab00f7e01ded4609c09be89161783426f41" upstream="thud"   name="meta-freescale"          path="sources/meta-freescale"/>
   <project remote="oe"        revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="freescale" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="thud"   name="meta-qt5"                path="sources/meta-qt5"/>
+  <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="variscite" revision="16f8da7763d9f9ed246cf0afa05e0cb98a7f6b31" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
