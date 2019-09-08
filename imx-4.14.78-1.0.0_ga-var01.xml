@@ -27,7 +27,7 @@
   <project remote="CAF"       revision="52ac01eee49b9f2f3ffec4c4037b7928d968115b" upstream="sumo-4.14.78-1.0.0_ga"  name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release">
 	<linkfile dest="README-IMXBSP"        src="imx/README"/>
   </project>
-  <project remote="variscite" revision="09bb380669a49c0eee865678112713393dd2adaa" upstream="sumo-imx-4.14.78-var01" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="d3cd612a8ff523c0daae627775bba7b308d72930" upstream="sumo-imx-4.14.78-var01" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
 	<linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
