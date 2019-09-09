@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="morty"/>
+
+  <remote fetch="https://git.yoctoproject.org/git"           name="yocto"/>
+  <remote fetch="https://github.com/openembedded"            name="oe"/>
+  <remote fetch="https://github.com/meta-qt5"                name="QT5"/>
+  <remote fetch="https://github.com/OSSystems"               name="OSSystems"/>
+  <remote fetch="https://github.com/Freescale"               name="community"/>
+  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/varigit"                 name="variscite"/>
+
+  <project remote="yocto"     revision="8298428c032ec9bc5b514d0c194a16cf371475ea" upstream="morty"                  name="poky"                    path="sources/poky"/>
+  <project remote="yocto"     revision="05681fdf8298bb441c15135eae424c7601b07e98" upstream="morty"                  name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="oe"        revision="b40116cf457b88a2db14b86fda9627fb34d56ae6" upstream="morty"                  name="meta-openembedded"       path="sources/meta-openembedded"/>
+  <project remote="QT5"       revision="ff073f04109900fc07bf81e2f1df63c626caf342" upstream="master"                 name="meta-qt5"                path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="678706cb43fb8576ff7b88bfb612993b8542724d" upstream="master"                 name="meta-browser"            path="sources/meta-browser"/>
+  <project remote="community" revision="e55167c3c2770c07a475342f99cc2a3a23fbfa0c" upstream="morty"                  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="community" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="master"                 name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
+  <project remote="community" revision="0b9b4db05ec6a5d96f3a6292f6c94aa963238b11" upstream="morty"                  name="fsl-community-bsp-base"  path="sources/base">
+	<linkfile dest="README"               src="README"/>
+	<linkfile dest="setup-environment"    src="setup-environment"/>
+  </project>
+  <project remote="CAF"       revision="0649ff215e8f9b79ecd3b813d672547aa45c086b" upstream="morty-4.9.51-8mq_ga"    name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release">
+	<linkfile dest="README-IMXBSP"        src="imx/README"/>
+  </project>
+  <project remote="variscite" revision="d38d4f5e1531433421ec438de8fb9d20c2cc5756" upstream="morty-imx-4.9.51-var01" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
+	<linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
+  </project>
+
+</manifest>
