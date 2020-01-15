@@ -7,6 +7,7 @@
   <remote fetch="git://github.com/Freescale" name="community"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="https://github.com/sbabic"                  name="sbabic"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://github.com/varigit"                 name="variscite"/>
@@ -26,6 +27,7 @@
   <project remote="community" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
 
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" name="meta-browser" path="sources/meta-browser" />
+  <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"                   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="CAF" revision="b060c22b586972b11fe76bad9664589196dab9ec" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
