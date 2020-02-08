@@ -31,7 +31,7 @@
   <project remote="rust"      revision="11aed43748d7dd194dc6c06a35a16104400d1090" name="meta-rust"               path="sources/meta-rust" />
   <project remote="QT5"       revision="20331bd6b696793a7aa23a3c035e5ebcf3075aa3" name="meta-qt5"                path="sources/meta-qt5" />
 
-  <project remote="Timesys"   revision="5fc7bd38e8cd55c4cfff8e0d9ec717cc544e4e22" name="meta-timesys"            path="sources/meta-timesys" />
+  <project remote="Timesys"   revision="f5dbbdad0b33ff4859bcd7828adee4c9c7068d1a" name="meta-timesys"            path="sources/meta-timesys" />
 
   <project remote="CAF" revision="bb05c60e6398b374ac49554c642a3bef36452f73"       name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release" upstream="warrior-4.19.35-1.1.0" >
     <linkfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
