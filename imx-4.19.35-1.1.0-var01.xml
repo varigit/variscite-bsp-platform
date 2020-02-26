@@ -24,7 +24,7 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="community" revision="da422478d38e744283bcf61123c4a526396c7030" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="community" revision="1e374913b737ae24934f799cc3592a05247a3c29" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="community" revision="d4e77ea682fa10d0d54a723b3d3099c44fc5e95c" name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
 
   <project remote="OSSystems" revision="5f365ef0f842ba4651efe88787cf9c63bc8b6cb3" name="meta-browser"            path="sources/meta-browser" />
