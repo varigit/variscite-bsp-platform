@@ -14,7 +14,7 @@
   <remote fetch="https://github.com/sbabic"                  name="sbabic"/>
   <remote fetch="https://github.com/varigit"                 name="variscite"/>
 
-  <project remote="yocto"     revision="a19e3961a42af7a685113ded236122e927d32b5e" name="poky"                    path="sources/poky"/>
+  <project remote="yocto"     revision="f475afc5df0837532dcd0f3a831ddc3aec8941f1" name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="0bde01370b18adf36fb59b87b661c9272fecbce2" name="meta-freescale"          path="sources/meta-freescale"/>
 
   <project remote="oe"        revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" name="meta-openembedded"       path="sources/meta-openembedded"/>
