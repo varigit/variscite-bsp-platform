@@ -39,7 +39,7 @@
   </project>
 
   <project remote="sbabic"    revision="7ebe40f1a9b312476580fc74541231ac202feaa4" name="meta-swupdate"           path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="109dfefe8221cb74558598325015df8a114ed401" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="7912671016d1903cc7e128e7095385a262f286d9" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
