@@ -19,9 +19,10 @@
   <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
+  <project remote="yocto"     revision="7685c7d415e0002c448007960837ae8898cd57a5" upstream="thud"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="fee69171444cab2d77054964799b4ef1d89abf65" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
 
-  <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
+  <project remote="variscite" revision="thud" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
