@@ -18,6 +18,7 @@
   <project remote="QT5"       revision="d4e7f73d04e8448d326b6f89908701e304e37d65" upstream="sumo"                   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master"                 name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"                   name="meta-swupdate"           path="sources/meta-swupdate"/>
+  <project remote="yocto"     revision="ed2038c935777d1336c17989d454f4e9c95fea7f" upstream="sumo"                   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="community" revision="82037216280a39957fb4272581637abec734ad50" upstream="sumo"                   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="community" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" upstream="sumo"                   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
   <project remote="community" revision="70535e13dd2aabbad53243518f4cc5064d284592" upstream="sumo"                   name="fsl-community-bsp-base"  path="sources/base">
