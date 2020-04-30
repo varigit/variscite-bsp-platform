@@ -27,6 +27,7 @@
 
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" name="meta-browser" path="sources/meta-browser" />
   <project remote="sbabic" revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo" name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="yocto" revision="ed2038c935777d1336c17989d454f4e9c95fea7f" upstream="sumo" name="meta-virtualization" path="sources/meta-virtualization"/>
   <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="CAF" revision="faaa42cea36b607c5dc3e63bbbd8dee7197e0d7e" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
