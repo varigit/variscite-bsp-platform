@@ -20,7 +20,7 @@
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="7685c7d415e0002c448007960837ae8898cd57a5" upstream="thud"   name="meta-virtualization"     path="sources/meta-virtualization"/>
-  <project remote="variscite" revision="43a5859ad1c60de1fd285461aa79c89433ed51c1" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="cf1d6fc946344789bd8a2c5fd1baa50d341c99dd" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
 
   <project remote="variscite" revision="thud" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
