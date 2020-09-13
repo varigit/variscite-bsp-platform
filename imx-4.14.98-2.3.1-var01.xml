@@ -35,7 +35,7 @@
      <linkfile src="imx/README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="variscite" revision="b6829fce733334fccc0cba8c4a6dee308cdbbb15" upstream="sumo-imx-4.14.98-var02" name="meta-variscite-imx" path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="abb7bbce64972025cf3730504db15b261495993a" upstream="sumo-imx-4.14.98-var02" name="meta-variscite-imx" path="sources/meta-variscite-imx">
         <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
