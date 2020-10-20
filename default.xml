@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale"     name="freescale"/>
+  <remote fetch="https://git.openembedded.org"     name="oe"/>
+  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
+  <remote fetch="https://github.com/sbabic"        name="sbabic"/>
+  <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="https://github.com/varigigi"      name="varigigi"/>
+
+  <project remote="yocto"     revision="2aed817e09567bd1812ce75e9fa95852ceec7a8a" upstream="dunfell"   name="poky"                    path="sources/poky"/>
+  <project remote="yocto"     revision="cdb2f3d9a0070291ad0f200190fb9db398599751" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
+
+  <project remote="oe"        revision="2a5c534d2b9f01e9c0f39701fccd7fc874945b1c" upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
+
+  <project remote="oe"        revision="07dca1e54f82a06939df9b890c6d1ce1e3197f75" upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
+
+  <project remote="varigigi" revision="dunfell" name="variscite-bsp-base" path="sources/base">
+	<linkfile dest="README" src="README"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="freescale" revision="bffc376980ec45720b38212c2da174881fe333ad" upstream="dunfell"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="5d882cdf079b3bde0bd9869ce3ca3db411acbf3b" upstream="dunfell"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="8f0aaf01aed46e5b8a7cc5cd3c3de9587837f0bb" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
+
+  <project remote="QT5"       revision="0e7015f7a86dda995a39662edbb5c26da647c496" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
+  <project remote="sbabic"    revision="4c82d83feacb1ad24f8e15ded5ed1a651708dd98" upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
+  <project remote="yocto"     revision="ff997b6b3ba800978546098ab3cdaa113b6695e1" upstream="dunfell"   name="meta-virtualization"     path="sources/meta-virtualization"/>
+  <project remote="varigigi"  revision="77dc40144b3f6590ceaaaa38641e607801c762b0" upstream="dunfell"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
+
+</manifest>
