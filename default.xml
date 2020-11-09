@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/varigigi"      name="varigigi"/>
 
   <project remote="yocto"     revision="40e448301edf142dc00a0ae6190017adac1e57b2" upstream="dunfell"   name="poky"                    path="sources/poky"/>
-  <project remote="yocto"     revision="cdb2f3d9a0070291ad0f200190fb9db398599751" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="5d3c1645db96447615ef0e172d77a98c6a029e90" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
 
   <project remote="oe"        revision="2a5c534d2b9f01e9c0f39701fccd7fc874945b1c" upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
 
