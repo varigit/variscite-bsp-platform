@@ -17,7 +17,7 @@
 
   <project remote="oe"        revision="07dca1e54f82a06939df9b890c6d1ce1e3197f75" upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
 
-  <project remote="variscite" revision="dunfell" name="variscite-bsp-base" path="sources/base">
+  <project remote="variscite" revision="d840ce6cdcd0fc3a8d05c7ddffcb4569bd6571a9" name="variscite-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
