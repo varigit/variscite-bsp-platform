@@ -28,7 +28,7 @@
   <project remote="sbabic"    revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec" name="meta-swupdate"            path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="48ec1b49871fef7d331ac1d0680a48d362c7482b" name="meta-virtualization"      path="sources/meta-virtualization"/>
 
-  <project remote="CAF"       revision="a083ffbbc3f4d1c02b1542746784d7f641a75b60" name="meta-imx"                 path="sources/meta-imx" >
+  <project remote="CAF"       revision="752a48385974cbc458c1fcc2e0c8c3f47730914c" name="meta-imx"                 path="sources/meta-imx" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
