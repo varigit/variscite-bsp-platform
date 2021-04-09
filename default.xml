@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
   <project remote="yocto"     revision="6bd890d9e011014cf323e61267f8b256949d44aa" upstream="pyro" name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="6f66d087e7d9c3560601ed969c21f22a1f26f461" upstream="pyro" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="83b779a7ef69006564fb8d27e65c31917bc3b6f0" upstream="pyro" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe"        revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" revision="a73a14247afbbcf840bab7b76f953004fe109253" upstream="pyro" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
