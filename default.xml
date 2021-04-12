@@ -11,7 +11,7 @@
   <remote fetch="git://github.com/meta-qt5" name="QT5"/>
 
   <project remote="yocto" revision="8ab3fa375891eba3dc102b6ee7fee3582070654b" upstream="morty"  name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="56a1460777d1e24b1dfb426cad2b103740936a83" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="b2071ddf724009f1c878686556d28f903dc2239c" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
 
