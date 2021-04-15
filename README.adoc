@@ -2,9 +2,7 @@
 
 This branch is based on 
 
-* Poky: yocto-2.3.1 (pyro-17.0.1)
-* FSL Community BSP: pyro
-* QT: 5.8
+NXP's i.MX android-11.0.0_1.0.0
 
 = Variscite BSP Platform
 
@@ -23,17 +21,5 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/var-fslc-yocto
 $ cd ~/var-fslc-yocto
-$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b pyro
+$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b android-11.0.0_1.0.0-var01
 $ repo sync -j4
-
-At the end of the commands you have every metadata you need to start work with.
-
-To start a simple image build:
-
-[source,console]
-$: MACHINE=<machine> DISTRO=<distro> source ./setup-environment <build directory>
-$: bitbake core-image-base
-
-You can use any directory to host your build.
-
-The source code is checked out at `var-fslc-yocto/sources`.
