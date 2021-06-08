@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/> 
+  <remote fetch="https://github.com/meta-qt5" name="QT5"/>
+  <remote fetch="https://github.com/kraj" name="clang"/>
+  <remote fetch="https://github.com/Freescale" name="community" />
+  <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://git.openembedded.org" name="python2"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/meta-rust" name="rust"/>
+  <remote fetch="https://github.com/sbabic"  name="sbabic"/>
+  <remote fetch="https://github.com/varigit"  name="variscite"/>
+ 
+  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="9d7b7caeba7ebd6c315bf99950e4501662ddeb80">
+    <linkfile src="README" dest="README"/>
+    <linkfile src="setup-environment" dest="setup-environment"/>
+  </project>
+  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="ee3be3b5986a4aa0e73df2204a625ae1fe5df37e"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="61faae011fb95712064f2c58abe6293f0daeeab5"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="6314f1927ca67cbf67cd8ce359518bf7fddd9ea7"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="e84ffb0a58cc17b52c3f2c118d86446f05ce8da0"/>
+  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="50eb2b32e7702bc435049bfe0a98fc65c864c106"/>
+  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.10.9_1.0.0" upstream="gatesgarth-5.10.9-1.0.0">
+    <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
+    <linkfile src="README" dest="README-IMXBSP"/>
+  </project>
+  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="b5c3d6c3e91a3914ae7a3fabec86295dbb00057d" upstream="imx_5.10.y"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="d9662a41f67c3425a356bce4ec29f82058127344"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0"/>
+  <project name="meta-rust" path="sources/meta-rust" remote="rust" revision="53bfa324891966a2daf5d36dc13d4a43725aebed"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="60c8482769f38a4db6f38d525405c887794511a9"/>
+  <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="ab7755187963b744c2eaf0c5aa5b61ce476fb01e" />
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="c83e438a40f550256f4ce7dafbaacfecbc023978"/>
+  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="4e2aaf7ffea6bf2bef7ac9b4fcc36e858d2b9433">
+    <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
+  </project>
+</manifest>
