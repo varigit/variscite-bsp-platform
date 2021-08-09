@@ -37,7 +37,7 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="60c8482769f38a4db6f38d525405c887794511a9"/>
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="ab7755187963b744c2eaf0c5aa5b61ce476fb01e" />
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="c83e438a40f550256f4ce7dafbaacfecbc023978"/>
-  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="3f540dbd112d658973fdcb90c95eea6f9bbfc0f5">
+  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="e42eb9fba726b6ab82b4c3668a27bc3d788e1115">
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 </manifest>
