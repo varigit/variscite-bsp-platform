@@ -25,7 +25,7 @@
   <project remote="CAF"       revision="0649ff215e8f9b79ecd3b813d672547aa45c086b" upstream="morty-4.9.51-8mq_ga"    name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release">
 	<linkfile dest="README-IMXBSP"        src="imx/README"/>
   </project>
-  <project remote="variscite" revision="6842887403b28a2599deb539b6f741abcf2741a0" upstream="morty-imx-4.9.51-var01" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="25ede28ab9f4e62cb2258de62d890c9860ad9109" upstream="morty-imx-4.9.51-var01" name="meta-variscite-imx"      path="sources/meta-variscite-imx">
 	<linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
