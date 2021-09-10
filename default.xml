@@ -10,25 +10,25 @@
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto"     revision="40e448301edf142dc00a0ae6190017adac1e57b2" upstream="dunfell"   name="poky"                    path="sources/poky"/>
-  <project remote="yocto"     revision="5d3c1645db96447615ef0e172d77a98c6a029e90" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="2a848e95074318f3a243df7b3f40513a13173a82" upstream="dunfell"   name="poky"                    path="sources/poky"/>
+  <project remote="yocto"     revision="12c3eed6a90b436565126d8ba6934f794b816e25" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
 
-  <project remote="oe"        revision="2a5c534d2b9f01e9c0f39701fccd7fc874945b1c" upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
+  <project remote="oe"        revision="7bd47ef6c98323c95a9e527129dca98c9a65ee08" upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
 
-  <project remote="oe"        revision="07dca1e54f82a06939df9b890c6d1ce1e3197f75" upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
+  <project remote="oe"        revision="b901080cf57d9a7f5476ab4d96e56c30db8170a8" upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
 
   <project remote="variscite" revision="d840ce6cdcd0fc3a8d05c7ddffcb4569bd6571a9" name="variscite-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="bffc376980ec45720b38212c2da174881fe333ad" upstream="dunfell"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="537cb85e4db17d1f6b356a92112b32ae2e39b235" upstream="dunfell"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="5d882cdf079b3bde0bd9869ce3ca3db411acbf3b" upstream="dunfell"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="8f0aaf01aed46e5b8a7cc5cd3c3de9587837f0bb" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
+  <project remote="freescale" revision="4558857539fd5395e9657500f84017e2722ba433" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
 
-  <project remote="QT5"       revision="0d8eb956015acdea7e77cd6672d08dce18061510" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
-  <project remote="sbabic"    revision="4c82d83feacb1ad24f8e15ded5ed1a651708dd98" upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
-  <project remote="yocto"     revision="ff997b6b3ba800978546098ab3cdaa113b6695e1" upstream="dunfell"   name="meta-virtualization"     path="sources/meta-virtualization"/>
+  <project remote="QT5"       revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
+  <project remote="sbabic"    revision="72b493c7ed9f5e1fb4ae1ce180f913acc29748c5" upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
+  <project remote="yocto"     revision="758868633be479f38d19c3602be0094289fc1a75" upstream="dunfell"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="286c0f3b29261c9e6986c7034234615c0300c753" upstream="dunfell"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
 
 </manifest>
