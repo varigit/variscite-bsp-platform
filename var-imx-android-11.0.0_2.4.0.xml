@@ -48,7 +48,7 @@
   <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="android-11.0.0_2.4.0-var01" />
   <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="lf_v2021.04_var02" />
   <project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="8081cd2bddb1569abe91eb50bd687a2066a33342" />
-  <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="android-11.0.0_2.2.0-var01" />
+  <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="android-11.0.0_2.4.0-var01" />
   <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="791890542ac1ce99131f36435e72af5635afc2fa" />
 
 
