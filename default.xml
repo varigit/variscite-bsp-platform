@@ -8,7 +8,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/varigit" name="variscite"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5" name="QT5"/>
+  <remote fetch="https://github.com/meta-qt5" name="QT5"/>
 
   <project remote="yocto" revision="8ab3fa375891eba3dc102b6ee7fee3582070654b" upstream="morty"  name="poky" path="sources/poky"/>
   <project remote="yocto" revision="b2071ddf724009f1c878686556d28f903dc2239c" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
