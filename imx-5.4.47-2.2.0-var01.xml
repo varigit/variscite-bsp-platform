@@ -46,7 +46,7 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
 
-  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="3a5540ae9190238f8e1aed92b96fca943be4ccdd" >
+  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="8e6319d0b07a19d17d8dcaa90a7204ae09f05832" >
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
