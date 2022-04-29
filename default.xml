@@ -28,6 +28,6 @@
   <project remote="sbabic"    revision="2c2c57d3aaae42999b6ef6dcdf67fe52b12735c3" upstream="hardknott"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="cd431b8f4498a77a800c19a857eb46717e7c71d4" upstream="hardknott"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="18509f26b5ea64777dfe2a6fe4eda16cfd9a2def" upstream="hardknott"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
-  <project remote="variscite" revision="02323fc09f4b322d9ef07952d4070578afd078e4" upstream="hardknott"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="250555b29c829b7f0e796b4a1e1ee6aeda047ea5" upstream="hardknott"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
 
 </manifest>
