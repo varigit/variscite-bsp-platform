@@ -24,6 +24,6 @@
   <project remote="freescale" revision="dd482aeb7913c099c69f82362776bd92b584553c" upstream="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="QT5" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="7d37ae2adec5cc5ea27367ce125bc7bce2310ca1" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="variscite" revision="3812bdaa3f283c5333ad291816d2c1f028ad7250" upstream="morty" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="7c143e620d3dbf3bfa05bb040a9f18c1fbcbf00b" upstream="morty" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
 </manifest>
