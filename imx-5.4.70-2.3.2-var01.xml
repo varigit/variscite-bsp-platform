@@ -46,7 +46,7 @@
 
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec" />
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="48ec1b49871fef7d331ac1d0680a48d362c7482b" />
-  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="af3e2279a98727d14f1f8cb6d282245c61780058" >
+  <project name="meta-variscite-imx" path="sources/meta-variscite-imx" remote="variscite" revision="ec61d2603914268ab3521f8e91ee67e7eaf3c0f5" >
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
