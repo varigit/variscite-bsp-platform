@@ -22,8 +22,14 @@ At the end of the commands you have every metadata you need to start work with.
 
 To start a simple image build:
 
+5.4:
 [source,console]
 $: MACHINE=<machine> DISTRO=<distro> source ./setup-environment <build directory>
+$: bitbake core-image-base
+
+5.10:
+[source,console]
+$: MACHINE=<machine> DISTRO=<distro> source ./var-setup-release.sh <build directory>
 $: bitbake core-image-base
 
 You can use any directory to host your build.
