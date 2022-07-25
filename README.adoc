@@ -15,19 +15,13 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/var-fslc-yocto
 $: cd ~/var-fslc-yocto
-$: repo init -u https://github.com/varigit/variscite-bsp-platform -b hardknott -m <hardknott-5.4.xml|hardknott-5.10.xml>
+$: repo init -u https://github.com/varigit/variscite-bsp-platform -b kirkstone -m default.xml
 $: repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
 
 To start a simple image build:
 
-5.4:
-[source,console]
-$: MACHINE=<machine> DISTRO=<distro> source ./setup-environment <build directory>
-$: bitbake core-image-base
-
-5.10:
 [source,console]
 $: MACHINE=<machine> DISTRO=<distro> source ./var-setup-release.sh <build directory>
 $: bitbake core-image-base
