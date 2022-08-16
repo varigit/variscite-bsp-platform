@@ -29,7 +29,7 @@
   <project remote="QT5"       revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    revision="72b493c7ed9f5e1fb4ae1ce180f913acc29748c5" upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="758868633be479f38d19c3602be0094289fc1a75" upstream="dunfell"   name="meta-virtualization"     path="sources/meta-virtualization"/>
-  <project remote="variscite" revision="5e17e6884ebd50bac9d029707d39f0dbaadd30d6" upstream="dunfell"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
+  <project remote="variscite" revision="49644feb48655e3684f698d36aecbaf2335daa4a" upstream="dunfell"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
   <project remote="variscite" revision="ef52ce53d860f0552dd892874cfce62537f6564a" upstream="dunfell"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
 
 </manifest>
