@@ -11,7 +11,7 @@
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
   <project remote="yocto"     revision="12e2869bcff94a43cbba8bf8b7bd6774a47a95db" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
-  <project remote="yocto"     revision="f9efb4d22669cdade59fe78db524c37fbc67becf" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="3747641f1e71d8e4edd5b587b49d09dc2d243942" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
   <project remote="oe"        revision="8f96c05f6d82fde052f2cb1652c13922814accb0" upstream="kirkstone"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="oe"        revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"   name="meta-python2"            path="sources/meta-python2"/>
 
