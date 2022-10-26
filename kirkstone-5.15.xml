@@ -28,7 +28,7 @@
   <project remote="QT5"       revision="44d44933200287f7d17cf6981af4b4a0961c308d" upstream="kirkstone"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    revision="fabbcc623d41794fbfa97c38b9da941ed2cdcdcc" upstream="kirkstone"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="5be54854139acb4796000478394afd66de0792c1" upstream="kirkstone"   name="meta-virtualization"     path="sources/meta-virtualization"/>
-  <project remote="variscite" revision="fbc0408b20d3dde75f52770ef00c7066a7128672" upstream="kirkstone"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
+  <project remote="variscite" revision="4acacfdbc4b89ace606b5d640e768b7561435324" upstream="kirkstone"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
   <project remote="variscite" revision="c630a5783061a65eeff34d3c1df13e63c346816c" upstream="kirkstone"   name="meta-variscite-bsp"      path="sources/meta-variscite-bsp"/>
   <project remote="variscite" revision="d8cafab2a1fee0b71e610c74cadaaead1e346926" upstream="kirkstone"   name="meta-variscite-sdk"      path="sources/meta-variscite-sdk">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
