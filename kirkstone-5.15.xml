@@ -25,7 +25,7 @@
   <project remote="freescale" revision="08dcb7c67072907348cd235d9e110d4ba91e8235" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
   <project remote="freescale" revision="7c9ad5c4d9e76e261ddf63fb7bc87fc244f55a38" upstream="kirkstone"   name="Documentation"           path="sources/Documentation"/>
 
-  <project remote="QT5"       revision="5b71df60e523423b9df6793de9387f87a149ac42" upstream="kirkstone"   name="meta-qt5"                path="sources/meta-qt5"/>
+  <project remote="QT5"       revision="44d44933200287f7d17cf6981af4b4a0961c308d" upstream="kirkstone"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    revision="fabbcc623d41794fbfa97c38b9da941ed2cdcdcc" upstream="kirkstone"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="5be54854139acb4796000478394afd66de0792c1" upstream="kirkstone"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="fbc0408b20d3dde75f52770ef00c7066a7128672" upstream="kirkstone"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
