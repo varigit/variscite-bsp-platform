@@ -12,7 +12,7 @@
 
   <project remote="yocto"     revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="3747641f1e71d8e4edd5b587b49d09dc2d243942" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
-  <project remote="oe"        revision="8f96c05f6d82fde052f2cb1652c13922814accb0" upstream="kirkstone"   name="meta-openembedded"       path="sources/meta-openembedded"/>
+  <project remote="oe"        revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="oe"        revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"   name="meta-python2"            path="sources/meta-python2"/>
 
   <project remote="variscite" revision="09a83d59b4b1b552d69fa0d7d9e61dde6244aa08" name="variscite-bsp-base" path="sources/base">
