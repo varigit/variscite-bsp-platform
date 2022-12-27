@@ -22,7 +22,7 @@
 
   <project remote="freescale" revision="a690b714f16398031ae78cdef90d0f7801683e8d" upstream="hardknott"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="e6daa26ba1f748326546063d63a085ae671827d9" upstream="hardknott"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="2d9ac9a4b28dafb5cba47d18435572c17159b32b" upstream="hardknott"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
+  <project remote="freescale" revision="141d79b805e72b0902dc2751521d270313695d53" upstream="hardknott"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
   <project remote="freescale" revision="7c9ad5c4d9e76e261ddf63fb7bc87fc244f55a38" upstream="hardknott"   name="Documentation"           path="sources/Documentation"/>
 
   <project remote="QT5"       revision="43f8f539d40070a70fe89136db89bf5bb1dfe7ed" upstream="hardknott"   name="meta-qt5"                path="sources/meta-qt5"/>
