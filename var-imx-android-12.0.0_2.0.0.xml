@@ -16,9 +16,9 @@
  <!-- For varigit .-->
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="android-12.0.0_2.0.0-var01" />
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="lf_v2022.04_var01" />
-<project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="8081cd2bddb1569abe91eb50bd687a2066a33342" />
 <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="android-12.0.0_2.0.0-var01" />
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="791890542ac1ce99131f36435e72af5635afc2fa" />
+<project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="lf_v2.6_var01" />
 
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="68a8f2f89cc58989bf4c1ade4757b2d5b680127e" />
 
@@ -29,7 +29,6 @@
 <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
 <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
 <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
-<project path="vendor/nxp-opensource/kernel_imx" name="linux-imx" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
 <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
 <project path="vendor/nxp-opensource/nn-imx" name="nn-imx" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
 <project path="vendor/nxp-opensource/nxp-mwifiex" name="mwifiex" remote="imx-linux-sdk" revision="refs/tags/android-12.0.0_2.0.0" />
