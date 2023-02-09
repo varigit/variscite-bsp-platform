@@ -8,6 +8,8 @@
   <remote fetch="https://git.openembedded.org"     name="oe"/>
   <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
+  <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
+  <remote fetch="https://github.com/kraj"          name="clang"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
   <project remote="yocto"     revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
@@ -20,6 +22,8 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
+  <project remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"                        name="meta-browser"            path="sources/meta-browser"/>
+  <project remote="clang"     revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"   name="meta-clang"              path="sources/meta-clang"/>
   <project remote="freescale" revision="6d8213fc5ec192c33f963b8095d1f01af1574eea" upstream="kirkstone"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="08dcb7c67072907348cd235d9e110d4ba91e8235" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
