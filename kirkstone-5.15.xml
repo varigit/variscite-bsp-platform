@@ -17,7 +17,7 @@
   <project remote="oe"        revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="oe"        revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"   name="meta-python2"            path="sources/meta-python2"/>
 
-  <project remote="variscite" revision="09a83d59b4b1b552d69fa0d7d9e61dde6244aa08" name="variscite-bsp-base" path="sources/base">
+  <project remote="variscite" revision="0fd2cb428a54925f74b21a340274249781f53efa" name="variscite-bsp-base" path="sources/base">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
