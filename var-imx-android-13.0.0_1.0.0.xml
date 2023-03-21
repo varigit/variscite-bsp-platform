@@ -15,7 +15,7 @@
 
  <!-- For varigit .-->
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="android-13.0.0_1.0.0-var01" />
-<project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="lf_v2022.04_var01" />
+<project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="lf_v2022.04_var02" />
 <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="android-13.0.0_1.0.0-var01" />
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="791890542ac1ce99131f36435e72af5635afc2fa" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="lf_v2.6_var01" />
