@@ -11,10 +11,7 @@
 <remote  name="var-github"
            fetch="https://github.com/varigit/"
            review="" />
-<remote  name="github"
-           fetch="https://github.com/"
-           review="" />
- <!-- For varigit .-->
+<!-- For varigit .-->
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="android-11.0.0_1.2.0-var01" />
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="imx_v2020.04_5.4.70_2.3.0_var02" />
 <project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="8081cd2bddb1569abe91eb50bd687a2066a33342" />
