@@ -34,7 +34,7 @@
 
   <project remote="freescale" revision="5977197340c7a7db17fe3e02a4e014ad997565ae" upstream="kirkstone"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="e4db66d6f536825449f5a3bc26d7cc30e38c7010" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
+  <project remote="freescale" revision="e86f4ac6ed3c18c1ed3dd76824fda4dd0e8c4f8d" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
   <project remote="freescale" revision="7c9ad5c4d9e76e261ddf63fb7bc87fc244f55a38" upstream="kirkstone"   name="Documentation"           path="sources/Documentation"/>
 
   <project remote="QT6"       revision="ed785a25d12e365d1054700d4fc94a053176eb14" upstream="6.3"         name="meta-qt6"                path="sources/meta-qt6"/>
