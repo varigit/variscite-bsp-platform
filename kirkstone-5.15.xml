@@ -26,7 +26,7 @@
   <project remote="clang"     revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"   name="meta-clang"              path="sources/meta-clang"/>
   <project remote="freescale" revision="6d8213fc5ec192c33f963b8095d1f01af1574eea" upstream="kirkstone"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="08dcb7c67072907348cd235d9e110d4ba91e8235" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
+  <project remote="freescale" revision="e86f4ac6ed3c18c1ed3dd76824fda4dd0e8c4f8d" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
   <project remote="freescale" revision="7c9ad5c4d9e76e261ddf63fb7bc87fc244f55a38" upstream="kirkstone"   name="Documentation"           path="sources/Documentation"/>
 
   <project remote="QT5"       revision="44d44933200287f7d17cf6981af4b4a0961c308d" upstream="kirkstone"   name="meta-qt5"                path="sources/meta-qt5"/>
