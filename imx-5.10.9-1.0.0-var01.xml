@@ -3,12 +3,12 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="NXP"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/> 
   <remote fetch="https://github.com/meta-qt5" name="QT5"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/Freescale" name="community" />
-  <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
+  <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.openembedded.org" name="python2"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
@@ -25,11 +25,11 @@
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="6314f1927ca67cbf67cd8ce359518bf7fddd9ea7"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="e84ffb0a58cc17b52c3f2c118d86446f05ce8da0"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="50eb2b32e7702bc435049bfe0a98fc65c864c106"/>
-  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.10.9_1.0.0" upstream="gatesgarth-5.10.9-1.0.0">
+  <project name="meta-imx" path="sources/meta-imx" remote="NXP" revision="refs/tags/rel_imx_5.10.9_1.0.0" upstream="gatesgarth-5.10.9-1.0.0">
     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
     <linkfile src="README" dest="README-IMXBSP"/>
   </project>
-  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="b5c3d6c3e91a3914ae7a3fabec86295dbb00057d" upstream="imx_5.10.y"/>
+  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="60578a5dbbfc9abc360a12e2cef7b64bfa582904" upstream="gatesgarth-5.10.9-1.0.0"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f"/>
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="d9662a41f67c3425a356bce4ec29f82058127344"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0"/>
