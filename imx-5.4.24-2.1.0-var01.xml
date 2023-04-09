@@ -38,7 +38,7 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="variscite" revision="fbeea2ae52e464d97626e60e24271449ebb893d1" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="bff4c06c6b6bdd23633601081494858b4bb3197b" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
