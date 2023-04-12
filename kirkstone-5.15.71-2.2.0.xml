@@ -22,8 +22,8 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="OSSystems" revision="2f5fe79935e1f5350f9e487625343a8f27b165d3"                        name="meta-browser"            path="sources/meta-browser"/>
-  <project remote="clang"     revision="e33eec34a85bac111efbf034dfe782fe3c105b05" upstream="kirkstone"   name="meta-clang"              path="sources/meta-clang"/>
+  <project remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"                        name="meta-browser"            path="sources/meta-browser"/>
+  <project remote="clang"     revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"   name="meta-clang"              path="sources/meta-clang"/>
   <project remote="freescale" revision="f6fa0fd8783ce69d07feaad0b7ca6759b5a4d5d6" upstream="kirkstone"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="e86f4ac6ed3c18c1ed3dd76824fda4dd0e8c4f8d" upstream="kirkstone"   name="meta-freescale-ml"       path="sources/meta-freescale-ml"/>
