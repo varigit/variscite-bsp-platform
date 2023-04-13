@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/sbabic" name="sbabic"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="NXP"/>
   <remote fetch="https://github.com/varigit" name="variscite"/>
 
   <project remote="yocto" revision="cbb677e9a09d5dad34404a851f7c23aeb5122465" name="poky" path="sources/poky"/>
@@ -30,7 +30,7 @@
   <project remote="yocto" revision="ed2038c935777d1336c17989d454f4e9c95fea7f" upstream="sumo" name="meta-virtualization" path="sources/meta-virtualization"/>
   <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="CAF" revision="faaa42cea36b607c5dc3e63bbbd8dee7197e0d7e" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
+  <project remote="NXP" revision="faaa42cea36b607c5dc3e63bbbd8dee7197e0d7e" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
      <linkfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
      <linkfile src="imx/README" dest="README-IMXBSP"/>
   </project>
