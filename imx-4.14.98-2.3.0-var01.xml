@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"                  name="sbabic"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="NXP"/>
   <remote fetch="https://github.com/varigit"                 name="variscite"/>
 
 
@@ -30,7 +30,7 @@
   <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"                   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="CAF" revision="b060c22b586972b11fe76bad9664589196dab9ec" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
+  <project remote="NXP" revision="b060c22b586972b11fe76bad9664589196dab9ec" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" >
      <linkfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
      <linkfile src="imx/README" dest="README-IMXBSP"/>
   </project>
