@@ -10,7 +10,7 @@
   <remote fetch="https://github.com/meta-qt5"                name="QT5"/>
   <remote fetch="https://github.com/TimesysGit"              name="Timesys"/>
   <remote fetch="https://github.com/meta-rust"               name="rust"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="NXP"/>
   <remote fetch="https://github.com/sbabic"                  name="sbabic"/>
   <remote fetch="https://github.com/varigit"                 name="variscite"/>
 
@@ -33,7 +33,7 @@
 
   <project remote="Timesys"   revision="f5dbbdad0b33ff4859bcd7828adee4c9c7068d1a" name="meta-timesys"            path="sources/meta-timesys" />
 
-  <project remote="CAF" revision="6b237a975521daa1687c5ac49f57da6d32c8c719"       name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release" upstream="warrior-4.19.35-1.1.0" >
+  <project remote="NXP" revision="6b237a975521daa1687c5ac49f57da6d32c8c719"       name="meta-fsl-bsp-release"    path="sources/meta-fsl-bsp-release" upstream="warrior-4.19.35-1.1.0" >
     <linkfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
     <linkfile src="imx/README" dest="README-IMXBSP"/>
   </project>
