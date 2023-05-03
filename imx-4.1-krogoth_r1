@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="https://github.com/nxp-imx"   name="NXP" />
+  <remote fetch="https://github.com/varigit"   name="variscite"/>
+
+  <project remote="yocto" revision="f5da2a5913319ad6ac2141438ba1aa17576326ab" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="be78894e4682f111575470fb23e51e6ba523508d" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+
+  <project remote="oe" revision="247b1267bbe95719cd4877d2d3cfbaf2a2f4865a" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
+     <copyfile dest="README" src="README"/>
+     <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="freescale" revision="3dfb82fc7e703eae9891b3ffda0e9393701f2396" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+
+  <project remote="OSSystems" revision="77736988073a5d90fcff9d0005c8477332ede387" name="meta-browser" path="sources/meta-browser" />
+  <project remote="QT5" revision="ccae79be69c5268df3b47e4e14cea0591c39a531" name="meta-qt5" path="sources/meta-qt5" />
+
+  <project remote="NXP" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="krogoth_4.1.y" >
+     <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
+     <copyfile src="imx/README" dest="README-IMXBSP"/>
+  </project>
+
+  <project remote="variscite" revision="e9aaf3dc7c060790f5fb9292b781bcbdc1d960d5" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
+    <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
+  </project>
+
+</manifest>

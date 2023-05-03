@@ -1,0 +1,39 @@
+= Variscite Release Notes
+
+This branch is based on:
+
+* Poky: yocto-2.1 (krogoth-15.0.0)
+* FSL Community BSP: krogoth
+* QT: 5.5
+
+= Variscite BSP Platform
+
+To get the BSP you need to have `repo` installed and use it as:
+
+Install the `repo` utility:
+
+[source,console]
+$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$: chmod a+x ~/bin/repo
+
+Download the BSP source:
+
+[source,console]
+$: PATH=${PATH}:~/bin
+$: mkdir ~/var-fslc-yocto
+$ cd ~/var-fslc-yocto
+$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b krogoth
+$ repo sync -j4
+
+At the end of the commands you have every metadata you need to start work with.
+
+To start a simple image build:
+
+[source,console]
+$: MACHINE=<machine> DISTRO=<distro> source var-setup-release.sh <build directory>
+$: bitbake core-image-base
+
+You can use any directory to host your build.
+
+The source code is checked out at `var-fslc-yocto/sources`.
