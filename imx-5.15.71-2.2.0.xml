@@ -41,7 +41,7 @@
   <project remote="sbabic"    revision="f27a63f42d124676a07401462b1c4a64f38b768b" upstream="kirkstone"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="kirkstone"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="4acacfdbc4b89ace606b5d640e768b7561435324" upstream="kirkstone"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
-  <project remote="variscite" revision="9bd972eece1e17cfb928863de8b2ae399a073c54" upstream="kirkstone"   name="meta-variscite-bsp"      path="sources/meta-variscite-bsp"/>
+  <project remote="variscite" revision="e92ad21c1889e35fbe6fecbc3e74a2c162976ff4" upstream="kirkstone"   name="meta-variscite-bsp"      path="sources/meta-variscite-bsp"/>
   <project remote="variscite" revision="a827877b394db36b5ecc5b99b8e2dc1743523b72" upstream="kirkstone"   name="meta-variscite-sdk"      path="sources/meta-variscite-sdk">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
