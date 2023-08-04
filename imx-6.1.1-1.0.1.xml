@@ -39,7 +39,7 @@
 
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="e6ddfa4841c5bcba9522e92e0308829e14a7fbe2" upstream="langdale"/>
   <project name="meta-variscite-bsp-imx" path="sources/meta-variscite-bsp-imx" remote="variscite" revision="f8ba4e0ae53173ceb893e57e6848a6fcc650539f" upstream="langdale-var01"/>
-  <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite" revision="d674f78aea792154a5f8fb71f74d9190502e44b3" upstream="main"/>
+  <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite" revision="d674f78aea792154a5f8fb71f74d9190502e44b3" upstream="langdale-var01"/>
   <project name="meta-variscite-hab" path="sources/meta-variscite-hab" remote="variscite" revision="f80994dc42bf7200cd04e7ca652db7c04a95142c" upstream="langdale-var01"/>
   <project name="meta-variscite-sdk-imx" path="sources/meta-variscite-sdk-imx" remote="variscite" revision="0c1570bb44cb24603088829dfe7354c90cd4851d" upstream="langdale-var01">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
