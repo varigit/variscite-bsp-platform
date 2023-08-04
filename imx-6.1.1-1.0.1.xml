@@ -44,7 +44,7 @@
   <project name="meta-variscite-sdk-imx" path="sources/meta-variscite-sdk-imx" remote="variscite" revision="0c1570bb44cb24603088829dfe7354c90cd4851d" upstream="langdale-var01">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
-  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite" revision="7625eca1e843ee0239cd9c1ba01a00b20c9d8a3e" upstream="langdale-var01"/>
+  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite" revision="cfe94f61edad44ea112d0c0d3fefb015c162c716" upstream="langdale-var01"/>
   <project name="variscite-bsp-base" path="sources/base" remote="variscite" revision="88f424b68ec09d6d627f769a4fb0d9be3f899403" upstream="langdale-var01">
     <linkfile src="README" dest="README"/>
     <linkfile src="setup-environment" dest="setup-environment"/>
