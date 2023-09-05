@@ -38,7 +38,7 @@
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="c057a681cf11923b22e16b9cdb0ad2b9187eced2" upstream="langdale-6.1.1-1.0.0"/>
 
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="e6ddfa4841c5bcba9522e92e0308829e14a7fbe2" upstream="langdale"/>
-  <project name="meta-variscite-bsp-imx" path="sources/meta-variscite-bsp-imx" remote="variscite" revision="b9a8e9ce2e210ed01e37599f7a36642d40f4229b" upstream="langdale-var01"/>
+  <project name="meta-variscite-bsp-imx" path="sources/meta-variscite-bsp-imx" remote="variscite" revision="804db187a8687539fc4d4dcb833d36559eae0cd1" upstream="langdale-var01"/>
   <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite" revision="e28a08a2b691707456121ddb4f2d924040e30b71" upstream="langdale-var01"/>
   <project name="meta-variscite-hab" path="sources/meta-variscite-hab" remote="variscite" revision="f80994dc42bf7200cd04e7ca652db7c04a95142c" upstream="langdale-var01"/>
   <project name="meta-variscite-sdk-imx" path="sources/meta-variscite-sdk-imx" remote="variscite" revision="dcd42f4e887fd74747d4fa66e84334e383734f08" upstream="langdale-var01">
