@@ -1,0 +1,38 @@
+= Variscite BSP Platform
+
+To get the BSP you need to have `repo` installed and use it as:
+
+Install the `repo` utility:
+
+[source,console]
+$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$: chmod a+x ~/bin/repo
+
+Download the Variscite's TI-AOSP Bootloader and Kernel source:
+
+[source,console]
+$: PATH=${PATH}:~/bin
+$: mkdir ~/ti-android-13 && cd $_
+$: export YOUR_PATH=$PWD
+$: mkdir -p ${YOUR_PATH}/ti-bootloader-aosp/ && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-13.0.0_r62-var01 -m RLS_09_00_Bootloader.xml
+$: repo sync -j4
+$: mkdir -p ${YOUR_PATH}/ti-kernel-aosp/ && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-13.0.0_r62-var01 -m RLS_09_00_Kernel.xml
+$: repo sync -j4
+
+
+Download the Variscite's AOSP source:
+[source,console]
+$: mkdir -p ${YOUR_PATH}/ti-aosp-13 && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-13.0.0_r62-var01 -m RLS_09_00.xml
+$: repo sync -j4
+
+To start a simple AOSP image build:
+
+[source,console]
+$: cd ${YOUR_PATH}/ti-aosp-13
+$: . build//envsetup.sh
+$: lunch am62x_var_som-userdebug
+$: m TARGET_AVB_ENABLE=true
