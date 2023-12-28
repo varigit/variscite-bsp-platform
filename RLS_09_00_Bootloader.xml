@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="git-ti-com" fetch="git://git.ti.com"/>
+  <remote name="varigit" fetch="https://github.com/varigit/"/>
+  <remote name="github" fetch="https://github.com"/>
+  <default remote="varigit" sync-j="4"/>
+  
+  <project name="atf/arm-trusted-firmware.git" path="arm-trusted-firmware" revision="refs/tags/08.06.00.007" remote="git-ti-com" />
+  <project name="security-development-tools/core-secdev-k3.git" path="core-secdev-k3" revision="bba9cabaeee96f7f287385188ff289b46769a4bf" remote="git-ti-com" />
+  <project name="k3-image-gen/k3-image-gen.git" path="k3-image-gen" revision="refs/tags/09.00.00.001" remote="git-ti-com"/>
+  <project name="OP-TEE/optee_os" path="optee_os" revision="refs/tags/3.22.0-rc1" remote="github" />
+  <project name="ti-u-boot.git" path="ti-u-boot" revision="ti-u-boot-2023.04_var02" remote="varigit"/>
+  <project name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" revision="refs/tags/09.00.00.007" remote="git-ti-com"/>
+
+</manifest>

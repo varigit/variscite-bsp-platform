@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
+  <remote name="git-ti-com" fetch="git://git.ti.com"/>
+  <remote name="varigit" fetch="https://github.com/varigit/"/>
+  
+  <default remote="aosp" revision="master" sync-j="4"/>
+  
+  <project name="graphics/ti-img-rogue-driver" path="imgtech-module" remote="git-ti-com" revision="066d9284e1dc273a2db61457c327d5c224b3c7f8" upstream="linuxws/kirkstone/k6.1/23.1.6404501" dest-branch="linuxws/kirkstone/k6.1/23.1.6404501" groups="ti"/>
+  <project name="kernel/build" path="build/kernel" revision="2e000c2dd188f15509e17812fba045e751bcc256" upstream="master" dest-branch="master">
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE"/>
+    <linkfile src="build_test.sh" dest="build/build_test.sh"/>
+    <linkfile src="config.sh" dest="build/config.sh"/>
+  </project>
+  <project name="kernel/common-modules/virtual-device" path="common-modules/virtual-device" revision="78253d2740e573d5f98ebf096a2951c6fa180c70" upstream="android14-6.1" dest-branch="android14-6.1"/>
+  <project name="kernel/configs" revision="ecb2b3a568d0f7b82641eb8b50dd59711c9e0aa1" upstream="master" dest-branch="master"/>
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="50dc359f85f0f1de118b03f5e464fe9dd060551c" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="kernel/tests" revision="74bc9ad21f244857de1e3e12c4b274ef76af4e50" upstream="master" dest-branch="master"/>
+  <project name="platform/build/bazel_common_rules" path="build/bazel_common_rules" revision="46c9982f2b13f458f7b1efd3ba8ab478cc3ceac4" upstream="master" dest-branch="master"/>
+  <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="f998e5dc13c03f0eae9e373263d3afff0932c738" upstream="master" dest-branch="master"/>
+  <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="2f199605a9875340569e039657f8b4c72d51b84d" upstream="master" dest-branch="master"/>
+  <project name="platform/external/stardoc" path="external/stardoc" revision="e83f522ee95419e55d2c5654aa6e0143beeef595" upstream="master" dest-branch="master"/>
+  <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" revision="7b5ae3ff3c8b5ed4aa1eebfe98344c7baae49dba" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="f81a14c10e8077791d1bc10ea965910228cdde5f" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="f08a96e4015aed7c0341b880ccd85500b1b44a26" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="82bf52f046ed053856754171ca5670d004774a94" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="f6d40532273c8bd628b960ecc0970c7294c8d891" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="9fb5a401a32faf49ddf2b63762de76cb67b0d7b5" upstream="master" dest-branch="master" clone-depth="1"/>
+  <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="615a1fced5f8e2755642d30357674d3bfa21b85e" upstream="master" dest-branch="master"/>
+  <project name="ti-linux-kernel" path="common" remote="varigit" revision="ti-android-linux-6.1.y_var01"/>
+  <project name="toolchain/prebuilts/ndk/r23" path="prebuilts/ndk-r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="master" dest-branch="master" clone-depth="1"/>
+  
+  <superproject name="kernel/superproject" revision="common-android14-6.1"/>
+</manifest>
