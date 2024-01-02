@@ -41,7 +41,7 @@
   <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="f240d900f6cd3ebedb8fb505798d63657edbbc72" upstream="mickledore-var02"/>
   <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="bb83d798b396d4913839d0965046529ee83b7733" upstream="mickledore-var02"/>
   <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="a51b2157f9b38b6261c383f3da80e84e35b1a99f" upstream="mickledore-var02"/>
-  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="6d977903206df8d3a6acd419989a90efdee3d592" upstream="mickledore-var02">
+  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="6fd2f0ac54c8d552e382ad1e175f330fd40e54cd" upstream="mickledore-var02">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
   <project name="variscite-bsp-base"        path="sources/base"                      remote="variscite"   revision="bfcfca8054c9517436cf5cb77e04bcf2b28ccc19" upstream="mickledore-var01">
