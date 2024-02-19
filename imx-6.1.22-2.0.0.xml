@@ -38,7 +38,7 @@
 
   <project name="meta-swupdate"             path="sources/meta-swupdate"             remote="sbabic"      revision="43afaac5da07d68d97d563f69019d88334b13795" upstream="mickledore"/>
   <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite"   revision="1c3152af48bccec6be024a33e81c766725681489" upstream="mickledore-var01"/>
-  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="6076c805dffeac8321f539efb041d570551b79cd" upstream="mickledore-var01"/>
+  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="4f506a548a357ee24163eb244279831171c3630a" upstream="mickledore-var01"/>
   <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="fe54dc55d3317b731bce2b61bf4074675b9aea47" upstream="mickledore-var01"/>
   <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="b4a35525fec07a90be49c6126f410893b35399d4" upstream="mickledore-var01"/>
   <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="745fd63c0bdd02402ee5ee035245fae68bbf5edc" upstream="mickledore-var01">
