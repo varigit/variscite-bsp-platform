@@ -16,6 +16,7 @@
 <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="android-14.0.0_1.0.0-var01" />
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="c41f9cb21b49a03ec80cfe6ef306185de42b0f4f" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="lf_v2.8_android-14.0.0_1.0.0_var01" />
+<project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="11.171.0.24" />
 <project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="4b78e7a257ee952dcae718e29c2533c91c6cd66a" />
 
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="37dcea0e6e5effb4228fe385e906edba3cbee389" />
