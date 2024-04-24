@@ -8,6 +8,7 @@
 <remote name="imx-proprietary" fetch="https://github.com/nxp/" review="" />
 <remote name="wireless-regdb" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/" review="" />
 <remote name="github" fetch="https://github.com/" review="" />
+<remote name="var-github" fetch="https://github.com/varigit/" review="" />
 
 <!-- For varigit .-->
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="android-11.0.0_2.2.0-var01" />
