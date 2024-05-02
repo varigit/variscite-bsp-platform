@@ -7,5 +7,5 @@
     <linkfile src="tools/imx-setup-desktop.sh" dest="imx-setup-desktop.sh"/>
     <linkfile src="README.md" dest="README-DESKTOP"/>
   </project>
-  <project name="meta-variscite-debian" remote="variscite" path="sources/meta-variscite-debian" revision="6fa943289d0b067c62095c5d1ec4f7bc8de33886" upstream="mickledore-var02"/>
+  <project name="meta-variscite-debian" remote="variscite" path="sources/meta-variscite-debian" revision="5fd5fe7e16c515110713a7b61651a595d6d86f4f" upstream="mickledore-var02"/>
 </manifest>
