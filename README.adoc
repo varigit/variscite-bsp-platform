@@ -1,0 +1,50 @@
+= Variscite BSP Platform
+
+To get the BSP you need to have `repo` installed and use it as:
+
+Install the `repo` utility:
+
+[source,console]
+$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$: chmod a+x ~/bin/repo
+
+Download the Variscite's TI-AOSP Bootloader and Kernel sources:
+
+[source,console]
+$: PATH=${PATH}:~/bin
+$: mkdir ~/var_aosp_ti-14_09_02_00 && cd $_
+$: export YOUR_PATH=$PWD
+$: mkdir -p ${YOUR_PATH}/ti-bootloader-aosp/ && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-14.0.0_r19-var01 -m RLS_09_02_Bootloader.xml
+$: repo sync -j$(nproc)
+$: mkdir -p ${YOUR_PATH}/ti-kernel-aosp/ && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-14.0.0_r19-var01 -m RLS_09_02_Kernel.xml
+$: repo sync -j$(nproc)
+
+
+Download the Variscite's AOSP source:
+
+[source,console]
+$: mkdir -p ${YOUR_PATH}/ti-aosp-14 && cd $_
+$: repo init -u https://github.com/varigit/variscite-bsp-platform.git -b ti-android-14.0.0_r19-var01 -m RLS_09_02.xml
+$: repo sync -j$(nproc)
+
+
+Apply Variscite's platform patches and install toolchains
+
+[source,console]
+$: cd ${YOUR_PATH}/ti-aosp-14/device
+$: variscite/scripts/install.sh
+
+
+For a complete build of android the following steps are needed:
+
+[source,console]
+$: Building ARM Trusted Firmware (ATF)
+$: Building OP-TEE OS
+$: Building U-Boot for R5 Core
+$: Building U-Boot for A53 Core with Android
+$: Build Android Images
+
+For a complete guide, please refer to https://variwiki.com/index.php?title=Android_TI_Guide&release=am62-android-14_09.02.00-v1.0
