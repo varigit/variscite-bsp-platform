@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="git-ti-com" fetch="git://git.ti.com"/>
+  <remote name="varigit" fetch="https://github.com/varigit/"/>
+  <remote name="github" fetch="https://github.com"/>
+  <default remote="varigit" sync-j="4"/>
+
+  <project name="atf/arm-trusted-firmware.git" path="arm-trusted-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com" />
+  <project name="optee/ti-optee-os.git" path="optee_os" revision="refs/tags/09.02.00.009" remote="git-ti-com" />
+  <project name="ti-u-boot.git" path="ti-u-boot" revision="cd5c2c317a7316ad6123fa21d6356e81854ec622" upstream="ti-u-boot-2023.04_android_09.02.00.009_var01" dest-branch="ti-u-boot-2023.04_android_09.02.00.009_var01" remote="varigit" />
+  <project name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com"/>
+
+</manifest>
