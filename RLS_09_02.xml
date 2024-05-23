@@ -13,7 +13,7 @@
   <project name="OP-TEE/optee_test.git" path="external/optee_test" remote="github" revision="2e1e7a9c9d659585566a75fc8802f4758c42bcb2" upstream="refs/tags/4.1.0" dest-branch="refs/tags/4.1.0" groups="ti"/>
   <project name="android/device-ti-am62x" path="device/ti/am62x" remote="git-ti-com" revision="70a3161f12e2685c0e9eecbdf237ac1d56e5cb09" upstream="d-android14-release" dest-branch="d-android14-release" groups="device,ti"/>
   <project name="android/device-ti-am62x-kernel" path="device/ti/am62x-kernel" remote="git-ti-com" revision="e3c2c00f63b96e16161a064455fe656a00e1d9df" upstream="d-android14-release" dest-branch="d-android14-release" groups="device,ti"/>
-  <project name="device-variscite-am62x" path="device/variscite" remote="varigit" revision="0f911c403a549a7a7a3a3d3357df822496b4e018" upstream="android14-release-var01" dest-branch="android14-release-var01"/>
+  <project name="device-variscite-am62x" path="device/variscite" remote="varigit" revision="21ddbe65c8d4e32ff793848c4c0a7de0f8640703" upstream="android14-release-var01" dest-branch="android14-release-var01"/>
   <project name="bcm_4343w_fw" path="vendor/variscite/bcm_4343w_fw" remote="varigit" revision="11.171.0.24" />
   <project name="android/external-kmgk" path="external/kmgk" remote="git-ti-com" revision="f9897f4a8a152317901b56f7a531514211ee2c3d" upstream="d-android14-release" dest-branch="d-android14-release" groups="ti"/>
   <project name="android/external-libcamera" path="external/libcamera" remote="git-ti-com" revision="85c6ba8dd2347f5fa8ee9400ff1e33abfa1d8f50" upstream="d-android14-release" dest-branch="d-android14-release" groups="ti"/>
