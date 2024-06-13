@@ -32,7 +32,7 @@
      <copyfile src="imx/README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="variscite" revision="5a17aef7d7fd2c52f2d0c0210552916b7877e6ba" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
+  <project remote="variscite" revision="ac01635d0847006728b8f19ea8cf63f06380fd31" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 
