@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default revision="scarthgap" sync-j="4"/>
+
+  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
+
+  <remote name="community"   fetch="https://github.com/Freescale"/>
+  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
+  <remote name="qt"          fetch="https://github.com/YoeDistro"/>
+  <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
+
+  <remote name="imx"         fetch="https://github.com/nxp-imx"/>
+  <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+
+  <remote name="sbabic"      fetch="https://github.com/sbabic"/>
+  <remote name="variscite"   fetch="https://github.com/varigit"/>
+
+  <project name="poky"                       path="sources/poky"                       remote="yp"          revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
+  <project name="meta-openembedded"          path="sources/meta-openembedded"          remote="oe"          revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea" upstream="scarthgap"/>
+  <project name="meta-clang"                 path="sources/meta-clang"                 remote="kraj"        revision="66414c17ae60e489bef9a97031323e92c247fbe1" upstream="scarthgap"/>
+
+  <project name="meta-freescale"             path="sources/meta-freescale"             remote="community"   revision="41b923e59e048b9b2942ff737a4ddac386954c62" upstream="scarthgap"/>
+  <project name="meta-freescale-3rdparty"    path="sources/meta-freescale-3rdparty"    remote="community"   revision="8b61684f0b1ba8bacdf3a69d993445e9791d4932" upstream="scarthgap"/>
+  <project name="meta-freescale-distro"      path="sources/meta-freescale-distro"      remote="community"   revision="158cc55b6ee30d09957b380859dba52c0f6af68d" upstream="scarthgap"/>
+
+  <project name="meta-arm"                   path="sources/meta-arm"                   remote="yp"          revision="8aa8a1f17f5b64bc691544f989f04fc83df98adb" upstream="scarthgap"/>
+  <project name="meta-qt6"                   path="sources/meta-qt6"                   remote="qt"          revision="dc13e1bfda4a4757a08c2d6673bc4bac012c4a80" upstream="6.7.0" />
+  <project name="meta-browser"               path="sources/meta-browser"               remote="ossystems"   revision="dc31889c0899971def535dc1c040edf18bc16691" />
+  <project name="meta-security"              path="sources/meta-security"              remote="yp"          revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034" upstream="scarthgap"/>
+  <project name="meta-timesys"               path="sources/meta-timesys"               remote="timesys"     revision="b96d8de949939ad08094f71ed6ed4f88eaf41d5e" upstream="master"/>
+  <project name="meta-virtualization"        path="sources/meta-virtualization"        remote="yp"          revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda" upstream="scarthgap"/>
+
+  <project name="meta-imx"                   path="sources/meta-imx"                   remote="imx"         revision="refs/tags/rel_imx_6.6.23_2.0.0"           upstream="scarthgap-6.6.23-2.0.0">
+     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
+     <linkfile src="README"                     dest="README-IMXBSP"/>
+  </project>
+  <project name="meta-matter"                path="sources/meta-matter"                remote="imx"         revision="refs/tags/rel_imx_6.6.23-2.0.0"           upstream="imx_matter_2024_q1-post" />
+  <project name="meta-nxp-demo-experience"   path="sources/meta-nxp-demo-experience"   remote="imx-support" revision="refs/tags/rel_imx_6.6.23_2.0.0"           upstream="scarthgap-6.6.23-2.0.0" />
+
+  <project name="meta-swupdate"              path="sources/meta-swupdate"              remote="sbabic"      revision="1600c74ed6d9eabc15a680a7a4cb359aa537bd65" upstream="scarthgap"/>
+  <project name="meta-variscite-bsp-common"  path="sources/meta-variscite-bsp-common"  remote="variscite"   revision="29cc711192f760849611169422e850a1e2cee97c" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-bsp-imx"     path="sources/meta-variscite-bsp-imx"     remote="variscite"   revision="3b12dfe97e4ca175c0b8fba5cb35db42965ff9cf" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-hab"         path="sources/meta-variscite-hab"         remote="variscite"   revision="503dd8b00c3437855c646a9d444922d5ed4fa3d6" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-sdk-common"  path="sources/meta-variscite-sdk-common"  remote="variscite"   revision="7bf9abdc70d2be48bbc9b2fae80f23ba103fb08e" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-sdk-imx"     path="sources/meta-variscite-sdk-imx"     remote="variscite"   revision="2697a12948a6068858ad2e07015a4bec9fd30d47" upstream="scarthgap_6.6.23-2.0.0_var01">
+    <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
+  </project>
+  <project name="variscite-bsp-base"         path="sources/base"                       remote="variscite"   revision="bfcfca8054c9517436cf5cb77e04bcf2b28ccc19" upstream="scarthgap_6.6.23-2.0.0_var01">
+    <linkfile src="setup-environment" dest="setup-environment"/>
+    <linkfile src="README"            dest="README"/>
+  </project>
+</manifest>
