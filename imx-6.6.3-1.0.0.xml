@@ -41,7 +41,7 @@
 
   <project name="meta-swupdate"             path="sources/meta-swupdate"             remote="sbabic"      revision="990075d1535e77f805883d180b94e05682066c8f" upstream="nanbield"/>
   <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite"   revision="23d93560633de5d10c827078b3a5669a71feabc8" upstream="nanbield-var01"/>
-  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="c6d14d07b3193be5c19760a6d526ededee027868" upstream="nanbield-var01"/>
+  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="06552bd07e71c8a51b0bed6c2698d92e100a9352" upstream="nanbield-var01"/>
   <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="cda40b5a97aa056b9ee4867b82844b2301c506a2" upstream="nanbield-var01"/>
   <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="0030f595a091dd205f726b7f5d141d8060b8891c" upstream="nanbield-var01"/>
   <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="522ac32a28acf1918aaeb51ea6d5f2cecd575b84" upstream="nanbield-var01">
