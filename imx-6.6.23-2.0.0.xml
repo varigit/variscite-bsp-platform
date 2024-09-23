@@ -48,8 +48,10 @@
   <project name="meta-variscite-sdk-imx"     path="sources/meta-variscite-sdk-imx"     remote="variscite"   revision="2697a12948a6068858ad2e07015a4bec9fd30d47" upstream="scarthgap_6.6.23-2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
-  <project name="variscite-bsp-base"         path="sources/base"                       remote="variscite"   revision="bfcfca8054c9517436cf5cb77e04bcf2b28ccc19" upstream="scarthgap_6.6.23-2.0.0_var01">
+  <project name="variscite-bsp-base"         path="sources/base"                       remote="variscite"   revision="3caeb0d2948e393e1e1e942d388ca306eb1e3f48" upstream="scarthgap_6.6.23-2.0.0_var01">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="README"            dest="README"/>
+    <linkfile src="scripts/var-start-container.sh"            dest="var-start-container.sh"/>
   </project>
+  <project name="var-host-docker-containers" path="sources/var-host-docker-containers" remote="variscite"   revision="257b9b134e28b56628ee6dbe89d8bdc06d12364d" upstream="master"/>
 </manifest>
