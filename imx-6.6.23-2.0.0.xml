@@ -33,7 +33,7 @@
   <project name="meta-timesys"               path="sources/meta-timesys"               remote="timesys"     revision="b96d8de949939ad08094f71ed6ed4f88eaf41d5e" upstream="master"/>
   <project name="meta-virtualization"        path="sources/meta-virtualization"        remote="yp"          revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda" upstream="scarthgap"/>
 
-  <project name="meta-imx"                   path="sources/meta-imx"                   remote="imx"         revision="refs/tags/rel_imx_6.6.23_2.0.0"           upstream="scarthgap-6.6.23-2.0.0">
+  <project name="meta-imx"                   path="sources/meta-imx"                   remote="imx"         revision="239073c47124f41f46581871afbde643f48d6a3b" upstream="scarthgap-6.6.23-2.0.0">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README"                     dest="README-IMXBSP"/>
   </project>
