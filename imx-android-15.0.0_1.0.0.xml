@@ -57,6 +57,7 @@
 <project path="external/tinyalsa_new" name="aosp_platform_external_tinyalsa_new" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
 <project path="external/wpa_supplicant_8" name="aosp_platform_external_wpa_supplicant_8" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
 <project path="frameworks/av" name="aosp_platform_frameworks_av" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
+<project path="frameworks/base" name="aosp_platform_frameworks_base" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
 <project path="frameworks/native" name="aosp_platform_frameworks_native" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
 <project path="hardware/google/camera" name="aosp_platform_hardware_google_camera" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
 <project path="hardware/interfaces" name="aosp_platform_hardware_interfaces" remote="imx-android" revision="refs/tags/android-15.0.0_1.0.0" />
