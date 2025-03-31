@@ -4,6 +4,7 @@
   <default revision="scarthgap" sync-j="4"/>
 
   <remote name="yp"          fetch="https://git.yoctoproject.org"/>
+  <remote name="yp-gh"       fetch="https://github.com/yoctoproject"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="kraj"        fetch="https://github.com/kraj"/>
 
@@ -18,7 +19,7 @@
   <remote name="sbabic"      fetch="https://github.com/sbabic"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <project name="poky"                       path="sources/poky"                       remote="yp"          revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
+  <project name="poky"                       path="sources/poky"                       remote="yp-gh"          revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
   <project name="meta-openembedded"          path="sources/meta-openembedded"          remote="oe"          revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea" upstream="scarthgap"/>
   <project name="meta-clang"                 path="sources/meta-clang"                 remote="kraj"        revision="66414c17ae60e489bef9a97031323e92c247fbe1" upstream="scarthgap"/>
 
