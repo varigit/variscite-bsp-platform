@@ -4,6 +4,7 @@
   <default sync-j="4" revision="kirkstone"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/yoctoproject"  name="yocto-gh"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
   <remote fetch="https://git.openembedded.org"     name="oe"/>
   <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
@@ -12,7 +13,7 @@
   <remote fetch="https://github.com/kraj"          name="clang"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
-  <project remote="yocto"     revision="6505459809380ddcf152a09343e4dc55038de332" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
+  <project remote="yocto-gh"  revision="6505459809380ddcf152a09343e4dc55038de332" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="d9f77788e1902a7d999958575a955e701c1c1b61" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
   <project remote="oe"        revision="82c75b466e55d7dca7a2364986ecb704cf63d141" upstream="kirkstone"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="oe"        revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"   name="meta-python2"            path="sources/meta-python2"/>
