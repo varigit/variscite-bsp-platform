@@ -45,7 +45,7 @@
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="4881aa9adb7619e075a56c2d43f9f2d4824f5563" upstream="scarthgap_6.6.52-2.2.0_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="29e4bd0b2057439658031a652c86bbc119267f3d" upstream="scarthgap_6.6.52-2.2.0_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="da8cd419f7aee64dd3f231c59de52a3c5f803ed6" upstream="scarthgap_6.6.52-2.2.0_var01"/>
-  <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="0df45874209b363defdccf266504948bb385d332" upstream="scarthgap_6.6.52-2.2.0_var01"/>
+  <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="4544d3f20397fc9c02cb7243365547086340eda4" upstream="scarthgap_6.6.52-2.2.0_var01"/>
   <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="51b77264b297fed026aa344e3f6fa64a9fc58492" upstream="scarthgap_6.6.52-2.2.0_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
   </project>
