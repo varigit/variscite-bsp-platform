@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default revision="walnascar" sync-j="4"/>
+
+  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
+  <remote name="yp-gh"       fetch="https://github.com/yoctoproject"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
+
+  <remote name="community"   fetch="https://github.com/Freescale"/>
+  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
+  <remote name="qt"          fetch="https://github.com/YoeDistro"/>
+  <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
+
+  <remote name="imx"         fetch="https://github.com/nxp-imx"/>
+  <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+
+  <remote name="sbabic"      fetch="https://github.com/sbabic"/>
+  <remote name="variscite"   fetch="https://github.com/varigit"/>
+
+  <project name="poky"                       remote="yp-gh"         path="sources/poky"                       revision="9b96fdbb0cab02f4a6180e812b02bc9d4c41b1a5" upstream="walnascar"/>
+  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="0d2d2d193a1619b6dbebaf335f1ef785478049e3" upstream="walnascar"/>
+  <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="2c9678cce413fa6c6c84a8a631f4635a4f862f11" upstream="walnascar"/>
+
+  <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="7431918c86ac6d3be2a273e091227157446960a7" upstream="master"/>
+  <project name="meta-freescale-3rdparty"    remote="community"     path="sources/meta-freescale-3rdparty"    revision="e7ce12ee3a3d0e6aa8dbbab598088b50b7625a33" upstream="master"/>
+  <project name="meta-freescale-distro"      remote="community"     path="sources/meta-freescale-distro"      revision="b9c3536b68271c420fe5de36fc284781ceaa32ab" upstream="master"/>
+
+  <project name="meta-arm"                   remote="yp"            path="sources/meta-arm"                   revision="42928dcc171629b495bbfcd8eda17ef6b8bdbfa3" upstream="walnascar"/>
+  <project name="meta-qt6"                   remote="qt"            path="sources/meta-qt6"                   revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3"/>
+  <project name="meta-browser"               remote="ossystems"     path="sources/meta-browser"               revision="f988d616d37ddf160d3d747ed54d0a66d549f499"/>
+  <project name="meta-security"              remote="yp"            path="sources/meta-security"              revision="784ca4b6584101e971b2d5d76ec7b716ad1301b5" upstream="walnascar"/>
+  <project name="meta-timesys"               remote="timesys"       path="sources/meta-timesys"               revision="7e5f4a3436c2acea499349012a46a9215bb9284e" upstream="master"/>
+  <project name="meta-virtualization"        remote="yp"            path="sources/meta-virtualization"        revision="4fedb61ebf60745a367d857af255006bd3509a39" upstream="walnascar"/>
+
+  <project name="meta-imx"                   remote="imx"           path="sources/meta-imx"                   revision="refs/tags/rel_imx_6.12.20_2.0.0"          upstream="walnascar-6.12.20.2.0.0">
+     <linkfile src="tools/imx-setup-release.sh"    dest="imx-setup-release.sh"/>
+     <linkfile src="README"                        dest="README-IMXBSP"/>
+  </project>
+  <project name="meta-nxp-connectivity"      remote="imx"           path="sources/meta-nxp-connectivity"      revision="refs/tags/rel_imx_6.12.20_2.0.0"          upstream="imx_matter_2025_q1-post"/>
+  <project name="meta-nxp-demo-experience"   remote="imx-support"   path="sources/meta-nxp-demo-experience"   revision="refs/tags/rel_imx_6.12.20_2.0.0"          upstream="walnascar-6.12.20-2.0.0"/>
+
+  <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="47cb53b31f044048bd095f544111004259540870" upstream="walnascar"/>
+  <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="eebb7c6d67afadbbb577220185d1d434092aee0e" upstream="walnascar_6.12.20-2.0.0_var01"/>
+  <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="4e33005b4829c003781dea63d8f93e3b71b74d62" upstream="walnascar_6.12.20-2.0.0_var01"/>
+  <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="50eb0bb76e9176e45084a1ff00f7abc1bc2faecd" upstream="walnascar_6.12.20-2.0.0_var01"/>
+  <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="2168a471d4c7a012154df6b4a890749adc57f9f7" upstream="walnascar_6.12.20-2.0.0_var01"/>
+  <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="c3e2aaf4b3ad8da5df65a3f335845c87f240024e" upstream="walnascar_6.12.20-2.0.0_var01">
+    <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
+  </project>
+  <project name="variscite-bsp-base"         remote="variscite"     path="sources/base"                       revision="1dc49a2d3768adc7db818f54ee4d8f5eef7b6bbc" upstream="walnascar_6.12.20-2.0.0_var01">
+    <linkfile src="setup-environment"              dest="setup-environment"/>
+    <linkfile src="README"                         dest="README"/>
+    <linkfile src="scripts/var-start-container.sh" dest="var-start-container.sh"/>
+  </project>
+  <project name="var-host-docker-containers" remote="variscite"     path="sources/var-host-docker-containers" revision="dd7218bb6e1c76db77cf40552b4cad7dfaa795fc" upstream="master"/>
+
+</manifest>
