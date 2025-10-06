@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/" />
+  <remote name="git-ti-com"
+          fetch=".." />
+  <default revision="main-kernel-2025" remote="aosp" sync-j="4" />
+
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12" />
+
+  <project path="build/kernel" name="kernel/build" groups="ddk" >
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
+  </project>
+  <project path="common" name="kernel/common" revision="android16-6.12" >
+      <linkfile src=".bazelignore" dest=".bazelignore" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android16-6.12" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+
+  <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
+  <project path="external/libcap" name="platform/external/libcap"/>
+
+  <!-- deps for for bzlmod -->
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
+  <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
+  <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
+  <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
+  <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
+
+  <!-- dependencies for GBL -->
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android16" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-android16"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
+  <project path="external/avb" name="platform/external/avb" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dtc" name="platform/external/dtc" />
+  <project path="external/libufdt" name="platform/system/libufdt" />
+  <project path="external/open-dice" name="platform/external/open-dice" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
+  <project path="system/core" name="platform/system/core" />
+
+<!-- non AOSP TI Projects -->
+  <remove-project name="kernel/common" />
+  <project path="common"  name="ti-linux-kernel/ti-linux-kernel" remote="git-ti-com" revision="android16-6.12.y" groups="ti" />
+  <project path="ti-linux-kernel" name="ti-linux-kernel/ti-linux-kernel" remote="git-ti-com" revision="ti-android-linux-6.12.y" groups="ti" />
+  <project path="private/devices/ti/am6x/" name="android/kernel-ti-device/" remote="git-ti-com" revision="ti-android-linux-6.12.y" groups="ti">
+    <linkfile src="device.bazelrc" dest="device.bazelrc" />
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="tools/update_symbol_list.sh" dest="update_symbol_list.sh" />
+    <linkfile src="tools/BUILD.bazel" dest="BUILD.bazel" />
+  </project>
+
+  <project path="private/devices/ti/modules/imgtech-ddk-driver/" name="graphics/ti-img-rogue-driver" remote="git-ti-com" revision="linuxws/scarthgap/k6.12/24.2.6643903" groups="ti" />
+
+
+</manifest>
