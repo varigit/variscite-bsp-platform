@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="git-ti-com" fetch=".." />
+    <remote name="github" fetch="https://github.com/" />
+    <remote name="tf-a" fetch="https://git.trustedfirmware.org/" />
+    <remote name="aosp" fetch="https://android.googlesource.com/" />
+
+    <project path="build" name="android/build-bootloaders.git" remote="git-ti-com" revision="d-android16-release" />
+    <project path="u-boot" name="ti-u-boot/ti-u-boot.git"  remote="git-ti-com" revision="ti-u-boot-2025.01" />
+    <project path="ti-linux-firmware" name="processor-firmware/ti-linux-firmware.git" remote="git-ti-com" revision="refs/tags/11.01.17" clone-depth="1"/>
+    <project path="optee-ta/kmgk" name="android/external-kmgk" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+    <project path="optee-os" name="OP-TEE/optee_os.git" remote="github" revision="refs/tags/4.7.0" />
+    <project path="optee-ta/optee_test" name="TexasInstruments/optee_test.git" remote="github"   revision="ti-master" />
+    <project path="arm-trusted-firmware" name="TexasInstruments/arm-trusted-firmware.git" remote="github" revision="e0c4d3903b382bf34f552af53e6d955fae5283ab" clone-depth="1" />
+</manifest>
