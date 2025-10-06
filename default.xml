@@ -557,7 +557,7 @@
   <project path="external/usb-ids" name="platform/external/usb-ids" groups="pdk" />
   <project path="external/uwb" name="platform/external/uwb" groups="pdk" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" />
-  <project path="external/v4l-utils" name="platform/external/v4l-utils" groups="pdk" />
+  <project path="external/v4l-utils" name="platform/external/v4l-utils" revision="be3dc24ae0ad251843a625d7f99eeca22f4547e2" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="pdk" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" />
   <project path="external/virtio-media" name="platform/external/virtio-media" groups="pdk" />
