@@ -2,8 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  <remote  name="git-ti-com"
+           fetch="https://git.ti.com/git/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-16.0.0_r2"
            remote="aosp"
            sync-j="4" />
@@ -1021,5 +1025,27 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <!-- END open-source projects -->
+
+<!-- AOSP -->
+  <remove-project name="platform/external/drm_hwcomposer" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" revision="ac727c57ae45bcff9648cfe9ee2414e96582b972" groups="drm_hwcomposer,pdk-fs" />
+
+<!-- AOSP Forks -->
+ <remove-project name="platform/external/v4l2_codec2" />
+ <project path="external/v4l2_codec2" name="android/external-v4l2_codec2" remote="git-ti-com" revision="d-android15-release" groups="ti" />
+
+<!-- non AOSP TI Projects -->
+ <project path="device/ti/am62x" name="android/device-ti-am62x" remote="git-ti-com" revision="d-android16-release" groups="device,ti" />
+ <project path="device/ti/am62x-kernel" name="android/device-ti-am62x-kernel" remote="git-ti-com" revision="d-android16-release" groups="device,ti" />
+ <project path="hardware/ti/am62x" name="android/hardware-ti-am62x" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+ <project path="vendor/ti/am62x" name="android/vendor-ti-am62x" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+ <project path="external/kmgk" name="android/external-kmgk" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+ <project path="external/libyaml" name="android/external-libyaml" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+ <project path="external/libyuv_chromium" name="android/external-libyuv_chromium" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+ <project path="external/libcamera" name="android/external-libcamera" remote="git-ti-com" revision="d-android16-release" groups="ti" />
+
+<!-- non AOSP Projects -->
+ <project path="vendor/linaro/optee_client" name="OP-TEE/optee_client.git" remote="github" revision="refs/tags/4.7.0" groups="ti" />
+ <project path="external/optee_test" name="TexasInstruments/optee_test.git" remote="github" revision="ti-master" groups="ti" />
 
 </manifest>
