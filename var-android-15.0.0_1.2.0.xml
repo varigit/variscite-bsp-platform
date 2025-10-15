@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<include name="imx-android-15.0.0_1.2.0.xml"/>
+
+<remote name="var-github" fetch="https://github.com/varigit/" review="" />
+
+<!-- For varigit .-->
+<project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="4bd5c25ffdec9635e2d57fda052c38bef895f0d4" />
+<project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="3c41a3e65ef661f8030f26d7be15ef0af1698ee5" />
+<project path="device/variscite" name="MX6x-android" remote="var-github" revision="d50e150776f1477c9256bbf981d4f60ca82f4710" >
+  <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
+</project>
+<project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="01083a64ebf28cc716efe2d2fd51c141042ae34b" />
+<project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="32e55cf4f7f94b91bdd4a47ba7a0402421f93495" />
+<project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="32c395d7fa389fcb1df13054f7a7edfafb46215f" />
+<project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="900186d5400de1a43fc5d55d63d5a8bfee271912" />
+<project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="3b61eb749b7cdce0788974c1640376771518b81d" />
+
+</manifest>
