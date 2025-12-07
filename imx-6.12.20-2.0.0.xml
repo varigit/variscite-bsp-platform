@@ -46,7 +46,7 @@
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="6f9c23fc982f8c528c3e66844d4811c429c00dc4" upstream="walnascar_6.12.20-2.0.0_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="50eb0bb76e9176e45084a1ff00f7abc1bc2faecd" upstream="walnascar_6.12.20-2.0.0_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="270ee6716e5872d16b747f82befb11f65781beec" upstream="walnascar_6.12.20-2.0.0_var01"/>
-  <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="d8a77f4d01abc219a7a900b38ff39900ebc73be7" upstream="walnascar_6.12.20-2.0.0_var01">
+  <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="c7192d63675a807b53f67a119d03939fed033fd8" upstream="walnascar_6.12.20-2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
   </project>
   <project name="variscite-bsp-base"         remote="variscite"     path="sources/base"                       revision="1dc49a2d3768adc7db818f54ee4d8f5eef7b6bbc" upstream="walnascar_6.12.20-2.0.0_var01">
