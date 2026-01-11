@@ -17,4 +17,8 @@
 <project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="900186d5400de1a43fc5d55d63d5a8bfee271912" />
 <project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="3b61eb749b7cdce0788974c1640376771518b81d" />
 
+<!-- NXP repo -->
+<remove-project name="imx-firmware" />
+<project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-linux-sdk" revision="refs/tags/android-15.0.0_2.0.0" />
+
 </manifest>
