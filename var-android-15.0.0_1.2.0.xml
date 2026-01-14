@@ -20,5 +20,7 @@
 <!-- NXP repo -->
 <remove-project name="imx-firmware" />
 <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-linux-sdk" revision="refs/tags/android-15.0.0_2.0.0" />
+<remove-project name="mwifiex" />
+<project path="vendor/nxp-opensource/nxp-mwifiex" name="mwifiex" remote="imx-linux-sdk" revision="refs/tags/android-15.0.0_2.0.0" />
 
 </manifest>
