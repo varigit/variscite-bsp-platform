@@ -1,0 +1,75 @@
+<manifest>
+    <remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com/"></remote>
+    <remote fetch=".." name="git-ti-com"></remote>
+    <default remote="aosp" revision="main-kernel-2025" sync-j="4"></default>
+    <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12"></superproject>
+    <project groups="ddk" name="kernel/build" path="build/kernel" revision="798efa1b4e8b5549bc880ba391a4de35ada4506b">
+        <linkfile dest="tools/bazel" src="kleaf/bazel.sh"></linkfile>
+        <linkfile dest="MODULE.bazel" src="kleaf/bzlmod/bazel.MODULE.bazel"></linkfile>
+        <linkfile dest="WORKSPACE.bzlmod" src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod"></linkfile>
+    </project>
+    <project name="kernel/tests" path="kernel/tests" revision="1c0f79bd4526a7a739a8252564d3bf4508051df6">
+        <linkfile dest="run_test_only.sh" src="tools/run_test_only.sh"></linkfile>
+        <linkfile dest="launch_cvd.sh" src="tools/launch_cvd.sh"></linkfile>
+        <linkfile dest="flash_device.sh" src="tools/flash_device.sh"></linkfile>
+    </project>
+    <project name="kernel/common-modules/trusty" path="common-modules/trusty" revision="3040c774a67513afe8cb3afcf14678fd77442f72"></project>
+    <project name="platform/external/virtio-media" path="common-modules/virtio-media" revision="00277701203bdfb6c5255afcc0948d29fe3e0248"></project>
+    <project name="kernel/common-modules/virtual-device" path="common-modules/virtual-device" revision="e1706b819e871c8e4685394447eab030336b76c4"></project>
+    <project clone-depth="1" groups="ddk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="77c95e8253c2c82ffd4fee92c0ad9f5ac1e8ca04"></project>
+    <project clone-depth="1" groups="ddk" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="81777ac458f7a91041c810dff65d1cdf3f41d790"></project>
+    <project clone-depth="1" groups="ddk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="574765b494f226284968a8d156437e4c932aad61"></project>
+    <project clone-depth="1" groups="ddk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="edb3c73c0398462492e7371fae68ce2db7afb6c7"></project>
+    <project clone-depth="1" groups="ddk" name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="b12d639efb8844ee1be5b437d707e7c94be3ce3a"></project>
+    <project clone-depth="1" groups="ddk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="8d38f3f31e9a0c9a5cb537b9f73da400bedb9a75"></project>
+    <project clone-depth="1" name="platform/tools/tradefederation/prebuilts" path="prebuilts/tradefed" revision="96750bf9bed6863d6e79e107d3aac85c0ddb0b6c"></project>
+    <project clone-depth="1" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="34aa2f1b36101906b0d55dcbc8b85e9823159056"></project>
+    <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="167f905b0c2bf311fedb039e8b30840176750ae8"></project>
+    <project clone-depth="1" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="b43dc974b874d58e939c51c774276d3ed173e4e1"></project>
+    <project clone-depth="1" groups="ddk" name="toolchain/prebuilts/ndk/r26" path="prebuilts/ndk-r26" revision="e535051ebc04204cec44bde38f62385d63180388"></project>
+    <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="8dd5e09d5faf27a871e8654ddaa2d2af7c696578"></project>
+    <project name="platform/external/libcap" path="external/libcap" revision="9a2ead0b5a377a75849cb0656aa553b5452a7080"></project>
+    <project groups="ddk-external" name="platform/external/bazel-contrib-bazel_features" path="external/bazel-contrib-bazel_features" revision="5716f9a0bd746eab4771e443196e3a783c114405"></project>
+    <project groups="ddk-external" name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="8dc2399ac318aaa8318e5041de9c66945539f09b"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="5fbb731d1654da0cc0a51b6c4dc213ef69a30b9d"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-platforms" path="external/bazelbuild-platforms" revision="6d0e9339ebcce217bd6cc45d81f8612ce78ab761"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_cc" path="external/bazelbuild-rules_cc" revision="07fd761ee642018946a1cf51c69be663190140a6"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_license" path="external/bazelbuild-rules_license" revision="48d5273aeec5d79939b6db8ed317d870fd967189"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_pkg" path="external/bazelbuild-rules_pkg" revision="8b19e046ffc9db31eda9ae9334476532b5e848ef"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="c198cb06e0374124467250b3de653d7159f333d1"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="b6d7e81a4e27a5f0106668fb71b05d6784dbde6f"></project>
+    <project groups="ddk-external" name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="50c6599d83e03a746845ddd2b6ba7ff8d5e57fe0"></project>
+    <project groups="ddk-external" name="platform/external/python/absl-py" path="external/python/absl-py" revision="36b3259addca1297dad9e00de002cb4a9c85766a"></project>
+    <project groups="ddk" name="platform/external/lz4" path="external/lz4" revision="f2a717445d3a8a1aaa5aeef1cb2e9a4bc739e9b1"></project>
+    <project groups="ddk" name="platform/external/pigz" path="external/pigz" revision="9bc9fa17d499ddde88b77820f6d063e16c0cdd42"></project>
+    <project groups="ddk" name="platform/external/toybox" path="external/toybox" revision="0696100f220f78a264e49933bfaf05c7c54873d5"></project>
+    <project groups="ddk" name="platform/external/zlib" path="external/zlib" revision="0664e5ce6422f79bfedf299477f19c6f532cdc3d"></project>
+    <project groups="ddk" name="platform/external/zopfli" path="external/zopfli" revision="610a2d4f13c64608d21b083177838368c9fcb1cc"></project>
+    <project name="platform/test/dittosuite" path="test/dittosuite" revision="9a5db2c075dab396cd98c91b9331b7d768149c79"></project>
+    <project name="platform/external/ltp" path="test/ltp" revision="8c45c63be6930565b6f0a7e72f6be8e4620f0e92"></project>
+    <project name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="a5f672b61a940dea0ae91319aba34caeee48c4a5"></project>
+    <project name="platform/bootable/recovery" path="bootable/recovery" revision="9565b5ee790a4ae7acd0c6c04a2b3e0c7eeced3c"></project>
+    <project name="platform/external/arm-trusted-firmware" path="external/arm-trusted-firmware" revision="54fd6939e177f8ff529b10183254802c76df6d08"></project>
+    <project name="platform/external/avb" path="external/avb" revision="a7c15a79ae2a19e60457adf77e2b0bc89266f163"></project>
+    <project name="platform/external/boringssl" path="external/boringssl" revision="e55d258ece08fee65442ec0a8a03021d439717b6"></project>
+    <project name="platform/external/compiler-rt" path="external/compiler-rt" revision="a36a1bcac7ec7ac9be29d8b0b5e669d53f7886f7"></project>
+    <project name="platform/external/dtc" path="external/dtc" revision="edd020ac81db8c68a7dfd38d5993001aeadedd5e"></project>
+    <project name="platform/system/libufdt" path="external/libufdt" revision="047d4c328099aec83f94d261be33c3548d18204c"></project>
+    <project name="platform/external/open-dice" path="external/open-dice" revision="8ac4c3ed37ef698a90ab1fd63d66dcf517c77c4b"></project>
+    <project name="platform/external/elfutils" path="external/elfutils" revision="f881b3cc4b93cf3eff6ff9d97adee8921b21c58a"></project>
+    <project name="platform/external/googletest" path="external/googletest" revision="cbeab5d01811d23ea488efc07f2c31f7c53024e2"></project>
+    <project name="platform/external/rust/android-crates-io" path="external/rust/android-crates-io" revision="df4ee8f9c746727a9f5a3e7785aa776f28401fb7"></project>
+    <project name="platform/external/rust/crates/smoltcp" path="external/rust/crates/smoltcp" revision="22ce981acab277a6809f53856ee2733d282bea31"></project>
+    <project name="platform/external/rust/crates/zune-inflate" path="external/rust/crates/zune-inflate" revision="9a1191933a795a8aedd67e358a9df492d36345d5"></project>
+    <project clone-depth="1" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" revision="8e06e1900a87cb8eb666ed4cd92105f53ad87254"></project>
+    <project name="platform/system/core" path="system/core" revision="a3b721a32242006b59cb12bd62c9133632af3a2d"></project>
+    <project groups="ti" name="ti-linux-kernel/ti-linux-kernel" path="common" remote="git-ti-com" revision="af4cb0e2168bc4db58d23c810dc74efea3b21f2a"></project>
+    <project groups="ti" name="ti-linux-kernel/ti-linux-kernel" path="ti-linux-kernel" remote="git-ti-com" revision="e9a61e5d367622946887c99803812cd8e07b9c74"></project>
+    <project groups="ti" name="android/kernel-ti-device/" path="private/devices/ti/am6x/" remote="git-ti-com" revision="355956db3eade5aab63c4b66302f3a5015527359">
+        <linkfile dest="device.bazelrc" src="device.bazelrc"></linkfile>
+        <linkfile dest="WORKSPACE" src="bazel.WORKSPACE"></linkfile>
+        <linkfile dest="update_symbol_list.sh" src="tools/update_symbol_list.sh"></linkfile>
+        <linkfile dest="BUILD.bazel" src="tools/BUILD.bazel"></linkfile>
+    </project>
+    <project groups="ti" name="graphics/ti-img-rogue-driver" path="private/devices/ti/modules/imgtech-ddk-driver/" remote="git-ti-com" revision="7cced54f276ac910dc67c6d8d9c9daa521995d04"></project>
+</manifest>

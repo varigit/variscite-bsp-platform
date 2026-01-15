@@ -1,0 +1,13 @@
+<manifest>
+    <remote fetch=".." name="git-ti-com"></remote>
+    <remote fetch="https://github.com/" name="github"></remote>
+    <remote fetch="https://git.trustedfirmware.org/" name="tf-a"></remote>
+    <remote fetch="https://android.googlesource.com/" name="aosp"></remote>
+    <project name="android/build-bootloaders.git" path="build" remote="git-ti-com" revision="10ae644da0dc9ee7762d68b9c1e5bd188a94cb75"></project>
+    <project name="ti-u-boot/ti-u-boot.git" path="u-boot" remote="git-ti-com" revision="ef2eb76b650415637bd93b0eddfb1e31489117f9"></project>
+    <project clone-depth="1" name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" remote="git-ti-com" revision="27344bea60be4f0410feb1c309b9de3cdc7f8c6d"></project>
+    <project groups="ti" name="android/external-kmgk" path="optee-ta/kmgk" remote="git-ti-com" revision="13f5836ae06a1e135ea25dfe407ae493cf5f7726"></project>
+    <project name="OP-TEE/optee_os.git" path="optee-os" remote="github" revision="86846f4fdf14f25b50fd64a87888ca9fe85a9e2b"></project>
+    <project name="TexasInstruments/optee_test.git" path="optee-ta/optee_test" remote="github" revision="8b70e7287da4f90d9910bfce9a9a9628db3a80ac"></project>
+    <project clone-depth="1" name="TexasInstruments/arm-trusted-firmware.git" path="arm-trusted-firmware" remote="github" revision="e0c4d3903b382bf34f552af53e6d955fae5283ab"></project>
+</manifest>
