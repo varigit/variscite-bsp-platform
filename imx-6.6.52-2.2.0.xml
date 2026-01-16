@@ -39,7 +39,7 @@
      <linkfile src="tools/imx-setup-release.sh"    dest="imx-setup-release.sh"/>
      <linkfile src="README"                        dest="README-IMXBSP"/>
   </project>
-  <project name="meta-nxp-connectivity"      remote="imx"           path="sources/meta-nxp-connectivity"      revision="f58365ec75a5768ff3e8e8bcd64f237738c93160" upstream="imx_matter_2024_q3-post"/>
+  <project name="meta-nxp-connectivity"      remote="imx"           path="sources/meta-nxp-connectivity"      revision="33821a39eb5e75d1b8d1df686178ea388c24d611" upstream="imx_matter_2025_q1-post"/>
   <project name="meta-nxp-demo-experience"   remote="imx-support"   path="sources/meta-nxp-demo-experience"   revision="e8e646e22b1f926aac83bb7ad522efa9cd8ccc45" upstream="scarthgap-6.6.52-2.2.0"/>
 
   <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="d598d4e675b541301ea1dfc8f0c8931983b4dcd0" upstream="scarthgap"/>
