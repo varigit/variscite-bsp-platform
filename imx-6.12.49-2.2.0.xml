@@ -18,7 +18,7 @@
   <remote name="sbabic"      fetch="https://github.com/sbabic"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <project name="poky" remote="yp" path="sources/poky" revision="d0b46a6624ec9c61c47270745dd0b2d5abbe6ac1" upstream="walnascar" />
+  <project name="poky" remote="variscite" path="sources/poky" revision="87802db2d5ce0d0df2ee66e61068686cc9e1d156" upstream="walnascar-5.2.4-var01" />
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="07330a98cf93806b7a4e0170a541b94962ff3960" upstream="walnascar" />
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="003cba92e982bdd565a6889f28799f8bba14957e" upstream="walnascar" />
 
