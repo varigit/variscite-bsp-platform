@@ -43,7 +43,7 @@
 
   <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="47cb53b31f044048bd095f544111004259540870" upstream="walnascar"/>
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="1432b399ffa62bb1d9fc1586436539c8fae3c9b2" upstream="walnascar_6.12.49-2.2.0_var01"/>
-  <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="559afdf4888608286d2f7006eb67574a778ed392" upstream="walnascar_6.12.49-2.2.0_var01"/>
+  <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="4a311a5b8f75011bf3d2d652f99eef757f257d48" upstream="walnascar_6.12.49-2.2.0_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="c41045bc6f07a6b3275b451aa299c92f78c623a2" upstream="walnascar_6.12.49-2.2.0_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="9be948d8c62b5e526425850281b2c208faca3d35" upstream="walnascar_6.12.49-2.2.0_var01"/>
   <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="bb40f5fc8295422a8abc35a37fa15e6715ba4157" upstream="walnascar_6.12.49-2.2.0_var01">
