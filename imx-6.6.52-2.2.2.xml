@@ -46,7 +46,7 @@
   <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="c3064a2767be4779589bd276079d7bb535dcb481" upstream="scarthgap"/>
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="2a7c846763ef3a3686a6bd3125e9bb436d8fab2c" upstream="scarthgap_6.6.52-2.2.2_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="a21b8d3a3753dde2c9727f16231df3386c8c35b5" upstream="scarthgap_6.6.52-2.2.2_var01"/>
-  <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="a10254910cedc3f75d7edb0bce19c2484c7a607f" upstream="scarthgap_6.6.52-2.2.2_var01"/>
+  <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="572bc2d9b477ac0f757a26671a20354e26c22656" upstream="scarthgap_6.6.52-2.2.2_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="9505b68ffbc5065c9397ee16084b030aba9a769c" upstream="scarthgap_6.6.52-2.2.2_var01"/>
   <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="5eaa6197ed188830bb44697f3f79ceca88132a3c" upstream="scarthgap_6.6.52-2.2.2_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
