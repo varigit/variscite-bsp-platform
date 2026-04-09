@@ -43,7 +43,7 @@
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.12.49_2.2.0" upstream="walnascar-6.12.49-2.2.0" />
 
   <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="47cb53b31f044048bd095f544111004259540870" upstream="walnascar"/>
-  <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="e06df99c7022cf4ae6c8437ce359bf6a72d546bb" upstream="mender/master-next"/>
+  <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="e06df99c7022cf4ae6c8437ce359bf6a72d546bb" upstream="master-next"/>
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="e36a061f8864c61c026ea2e1631bc387da180844" upstream="walnascar_6.12.49-2.2.0_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="4f7c5307e01687448ff09cb84403bab400a61455" upstream="walnascar_6.12.49-2.2.0_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="ea76f07942226424200b2507599f3a44da709d74" upstream="walnascar_6.12.49-2.2.0_var01"/>
