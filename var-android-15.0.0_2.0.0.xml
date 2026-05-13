@@ -11,7 +11,7 @@
 <project path="vendor/variscite/imx-sm" name="imx-sm" remote="var-github" revision="7e73e00bd50e6a7a80cca5de32e5f72de6e67f37" />
 <project path="vendor/variscite/imx-oei" name="imx-oei" remote="var-github" revision="3c9aad091aef6e89fd7d6ab14399b48b4ee1cfe2" />
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="7592feb4f30ed21d55fe6a0ea2c95a8d0ef9a67f" />
-<project path="device/variscite" name="MX6x-android" remote="var-github" revision="a5ab99aa4ca2fbc4ec7bfacf66f84543b283e456" >
+<project path="device/variscite" name="MX6x-android" remote="var-github" revision="28e200c8fc1ff858820d62bf00cbebd41c958926" >
   <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
   <linkfile dest="var-create-release-package.sh" src="var-create-release-package.sh"/>
 </project>
