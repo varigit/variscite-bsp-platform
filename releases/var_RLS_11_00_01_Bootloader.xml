@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="releases/RLS_11_00_01_Bootloader.xml"/>
+
+  <remote name="varigit" fetch="https://github.com/varigit" review=""/>
+
+  <remove-project name="ti-u-boot/ti-u-boot.git"/>
+  <project name="ti-u-boot" path="u-boot" remote="varigit" revision="1ce3af6cfd98d54ce8469951f21bfcba5bcba45f"/>
+</manifest>
