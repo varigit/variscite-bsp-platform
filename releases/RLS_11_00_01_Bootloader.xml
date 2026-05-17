@@ -1,5 +1,5 @@
 <manifest>
-    <remote fetch=".." name="git-ti-com"></remote>
+    <remote fetch="https://git.ti.com/git/" name="git-ti-com"></remote>
     <remote fetch="https://github.com/" name="github"></remote>
     <remote fetch="https://git.trustedfirmware.org/" name="tf-a"></remote>
     <remote fetch="https://android.googlesource.com/" name="aosp"></remote>
