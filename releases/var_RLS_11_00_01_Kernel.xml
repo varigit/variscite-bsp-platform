@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="releases/RLS_11_00_01_Kernel.xml"/>
+
+  <remote name="varigit" fetch="https://github.com/varigit" review=""/>
+  <remote name="imx-linux-sdk" fetch="https://github.com/nxp-imx" review=""/>
+
+  <remove-project name="ti-linux-kernel/ti-linux-kernel" path="common"/>
+  <project groups="ti" name="ti-linux-kernel" path="common" remote="varigit" revision="e076c1ac6005fd47662edbe7010220e5e4cd1ad1"/>
+
+  <remove-project name="ti-linux-kernel/ti-linux-kernel" path="ti-linux-kernel"/>
+  <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="0fc416059a1cd81246ab992ad6b26ee123c5bd83"/>
+
+  <remove-project name="android/kernel-ti-device/"/>
+  <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="dcd634072aef1bfd7d9cb8f91df7b0289dd2e7de"/>
+
+  <project name="mwifiex" path="vendor/nxp-opensource/mwifiex" remote="imx-linux-sdk" revision="refs/tags/android-16.0.0_1.2.0"/>
+</manifest>
