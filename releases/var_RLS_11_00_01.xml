@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="releases/RLS_11_00_01.xml"/>
+
+  <remote name="varigit" fetch="https://github.com/varigit" review=""/>
+  <remote name="imx-linux-sdk" fetch="https://github.com/nxp-imx" review=""/>
+
+  <project name="device-variscite-am62x" path="device/variscite" remote="varigit" revision="0e91b60d2dddccbc399361e3b4f8af77c6f776aa" upstream="android16-release-var01" dest-branch="android16-release-var01" groups="device,variscite">
+    <linkfile dest="var-create-release-package.sh" src="var-create-release-package.sh"/>
+  </project>
+  <project name="imx-firmware" path="vendor/nxp/imx-firmware" remote="imx-linux-sdk" revision="refs/tags/android-16.0.0_1.2.0"/>
+</manifest>
