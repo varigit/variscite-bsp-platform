@@ -1,6 +1,6 @@
 <manifest>
     <remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com/"></remote>
-    <remote fetch=".." name="git-ti-com"></remote>
+    <remote fetch="https://git.ti.com/git/" name="git-ti-com"</remote>
     <default remote="aosp" revision="main-kernel-2025" sync-j="4"></default>
     <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12"></superproject>
     <project groups="ddk" name="kernel/build" path="build/kernel" revision="798efa1b4e8b5549bc880ba391a4de35ada4506b">
