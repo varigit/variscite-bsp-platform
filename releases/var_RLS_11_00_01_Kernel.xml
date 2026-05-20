@@ -12,7 +12,12 @@
   <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="0fc416059a1cd81246ab992ad6b26ee123c5bd83"/>
 
   <remove-project name="android/kernel-ti-device/"/>
-  <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="dcd634072aef1bfd7d9cb8f91df7b0289dd2e7de"/>
+  <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="dcd634072aef1bfd7d9cb8f91df7b0289dd2e7de">
+    <linkfile dest="device.bazelrc" src="device.bazelrc"/>
+    <linkfile dest="WORKSPACE" src="bazel.WORKSPACE"/>
+    <linkfile dest="update_symbol_list.sh" src="tools/update_symbol_list.sh"/>
+    <linkfile dest="BUILD.bazel" src="tools/BUILD.bazel"/>
+  </project>
 
   <project name="mwifiex" path="vendor/nxp-opensource/mwifiex" remote="imx-linux-sdk" revision="refs/tags/android-16.0.0_1.2.0"/>
 </manifest>
