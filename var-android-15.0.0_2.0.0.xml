@@ -8,7 +8,7 @@
 <!-- For varigit .-->
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="aa1a945b81a0a8060b5f98718391b6e61c2ffd50" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="1fd46eeb2c4f30e48ace97c8929033eabe6ac107" />
-<project path="vendor/variscite/imx-sm" name="imx-sm" remote="var-github" revision="7e73e00bd50e6a7a80cca5de32e5f72de6e67f37" />
+<project path="vendor/variscite/imx-sm" name="imx-sm" remote="var-github" revision="f65c9fea7618ecd2fbf561dc8a397a2edb0e19b2" />
 <project path="vendor/variscite/imx-oei" name="imx-oei" remote="var-github" revision="3c9aad091aef6e89fd7d6ab14399b48b4ee1cfe2" />
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="7592feb4f30ed21d55fe6a0ea2c95a8d0ef9a67f" />
 <project path="device/variscite" name="MX6x-android" remote="var-github" revision="92958be36b980cf0648c4caf394dc3dfc1fbe933" >
