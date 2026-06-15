@@ -15,7 +15,7 @@
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="01083a64ebf28cc716efe2d2fd51c141042ae34b" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="12168b9ac8e22e253cfe27426d82a1ccd7cbf935" />
 <project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="32c395d7fa389fcb1df13054f7a7edfafb46215f" />
-<project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="6fba473817e5419a0c3fa661424e4b2bcc17eebd" />
+<project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="bfb3d04b183cb0a2a0bef670f2fe55c1f680cb46" />
 <project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="3b61eb749b7cdce0788974c1640376771518b81d" />
 
 <!-- NXP repo -->
