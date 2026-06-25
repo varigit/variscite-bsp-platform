@@ -19,10 +19,10 @@
   <remote name="mender"      fetch="https://github.com/mendersoftware"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="a2dd9be788274d9c7280be5b1be5eb5c3990cf54" upstream="2.18"/>
-  <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="42fa856a00ac16b2a7a83d7ecfa60a5be192b16c" upstream="wrynose"/>
+  <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" upstream="2.18"/>
+  <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="5d1aa5c806c061a2994f4decb59016610f093213" upstream="wrynose"/>
   <project name="meta-yocto"                 remote="yp"            path="sources/meta-yocto"                 revision="904846ae078ee20de073040ebb77c86e19250f56" upstream="wrynose"/>
-  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="420222862f5a6d95023b8f5f3b7e1808b2264ef9" upstream="wrynose"/>
+  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="100027977216601000cbefc42c2ff6cf667e7b5e" upstream="wrynose"/>
   <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="78c5e12f08198f4f257a9348516d2103cd617c1d" upstream="wrynose"/>
 
   <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="3949624f36cbc5b7fd4033ce5ef001d83fc1a3e9" upstream="master"/>
