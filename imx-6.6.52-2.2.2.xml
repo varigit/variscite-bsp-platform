@@ -20,20 +20,20 @@
   <remote name="mender"      fetch="https://github.com/mendersoftware"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <project name="poky"                       remote="yp-gh"         path="sources/poky"                       revision="a53cae3de9f45417b97efc4c46c42e4c8ebdb939" upstream="scarthgap"/>
-  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="5124ac4a658899158f4a7a2ddf1d2ca931ec7d0e" upstream="scarthgap"/>
-  <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="5c602337ea1a80fb7217eeda04e396cf90587dca" upstream="scarthgap"/>
+  <project name="poky"                       remote="yp-gh"         path="sources/poky"                       revision="6b7474f7ca29076d28df81a49feec6311fa18202" upstream="scarthgap"/>
+  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="29a044218285fdc7fcdd63d5f0929cb3a27b6fed" upstream="scarthgap"/>
+  <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="7cf54f70cebe897d844f649024322bb096d7cb50" upstream="scarthgap"/>
 
-  <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="0c27c21cab57876474bb572e5d378b6707e41224" upstream="scarthgap"/>
+  <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="b699d026506a6fc402e03afb432dcabd3d81c7ab" upstream="scarthgap"/>
   <project name="meta-freescale-3rdparty"    remote="community"     path="sources/meta-freescale-3rdparty"    revision="ce10c065119c2d4e359235c77aae7e0d843533ef" upstream="scarthgap"/>
   <project name="meta-freescale-distro"      remote="community"     path="sources/meta-freescale-distro"      revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
 
-  <project name="meta-arm"                   remote="yp"            path="sources/meta-arm"                   revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd" upstream="scarthgap"/>
+  <project name="meta-arm"                   remote="yp"            path="sources/meta-arm"                   revision="23b572c40ea6709ab3f8bd7abbb5a795fc3631c2" upstream="scarthgap"/>
   <project name="meta-qt6"                   remote="variscite"     path="sources/meta-qt6"                   revision="6af12321a16f97135b078170e931ea111dd74337" upstream="6.8-var01"/>
   <project name="meta-browser"               remote="ossystems"     path="sources/meta-browser"               revision="dc31889c0899971def535dc1c040edf18bc16691"/>
   <project name="meta-security"              remote="yp"            path="sources/meta-security"              revision="b13f1705d723650de61277670c8a76aadea4cfdd" upstream="scarthgap"/>
-  <project name="meta-timesys"               remote="timesys"       path="sources/meta-timesys"               revision="5ab49bb8ca5f1a782dbea115801f290fabbed551" upstream="scarthgap"/>
-  <project name="meta-virtualization"        remote="yp"            path="sources/meta-virtualization"        revision="8409bc0c8b9209327add72d8fa72571cdeb5521e" upstream="scarthgap"/>
+  <project name="meta-timesys"               remote="timesys"       path="sources/meta-timesys"               revision="c0182a7bfad174b6bec9e7724e26b12e9b61bac6" upstream="scarthgap"/>
+  <project name="meta-virtualization"        remote="yp"            path="sources/meta-virtualization"        revision="31fb0a22e0aa65b430a40fbc59dbf239eb8745aa" upstream="scarthgap"/>
 
   <project name="meta-imx" remote="imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.52_2.2.2" upstream="scarthgap-6.6.52-2.2.2">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
@@ -42,7 +42,7 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="imx_matter_2024_q3-post"/>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
 
-  <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="8c08983e9c4b47779bfe0f730b210366965afb9d" upstream="scarthgap"/>
+  <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="49af8ea3175bbe025bab8536acb68010dc75738d" upstream="scarthgap"/>
   <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="c3064a2767be4779589bd276079d7bb535dcb481" upstream="scarthgap"/>
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="8fa83af3b9c8d3894597cf75a7b2806957d1358a" upstream="scarthgap_6.6.52-2.2.2_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="2a2d767fbf61a86ca86c0b6187a619e17c54af1d" upstream="scarthgap_6.6.52-2.2.2_var01"/>
