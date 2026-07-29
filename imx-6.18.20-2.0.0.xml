@@ -46,7 +46,7 @@
 
   <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="5fa2d690617d859e125ccaba13f0869be89547d4" upstream="wrynose"/>
   <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="2afe79bd8ecfbcb68b7707d340cd75c03da744f5" upstream="wrynose"/>
-  <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="155d1e6f8b0a618541be786f8628363c4481f9c0" upstream="wrynose_var01"/>
+  <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="edf0ab880bbb14ed1c54f0db919cb72a8c0e5096" upstream="wrynose_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="75e8bee124d80f5c289ba422dddd64cf8c134e69" upstream="wrynose_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="69cf053f7c427b151cd0e5e86b91b73e1dacc270" upstream="wrynose_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="2b3cf4fa31d22fe2854a07df30b1dfd04c983bfc" upstream="wrynose_6.18.20_2.0.0_var01"/>
