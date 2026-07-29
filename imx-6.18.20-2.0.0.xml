@@ -19,21 +19,21 @@
   <remote name="mender"      fetch="https://github.com/mendersoftware"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" upstream="2.18"/>
-  <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="5d1aa5c806c061a2994f4decb59016610f093213" upstream="wrynose"/>
-  <project name="meta-yocto"                 remote="yp"            path="sources/meta-yocto"                 revision="904846ae078ee20de073040ebb77c86e19250f56" upstream="wrynose"/>
-  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="100027977216601000cbefc42c2ff6cf667e7b5e" upstream="wrynose"/>
-  <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="78c5e12f08198f4f257a9348516d2103cd617c1d" upstream="wrynose"/>
+  <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="fae9db3168dbff1b8c76fe9c6726a9687ff97514" upstream="2.18"/>
+  <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="f66b182e2ff431b624dfc3a506d25dc8f1fc6db2" upstream="wrynose"/>
+  <project name="meta-yocto"                 remote="yp"            path="sources/meta-yocto"                 revision="824795b885b25e074a2880fbcd54e1a6c875d47d" upstream="wrynose"/>
+  <project name="meta-openembedded"          remote="oe"            path="sources/meta-openembedded"          revision="af8b6d6b2f0b11595b0a0d5b82efa3129d52a628" upstream="wrynose"/>
+  <project name="meta-clang"                 remote="kraj"          path="sources/meta-clang"                 revision="ef0d22f21910a0c30c967eeb17d8f209806e2d81" upstream="wrynose"/>
 
-  <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="3949624f36cbc5b7fd4033ce5ef001d83fc1a3e9" upstream="master"/>
-  <project name="meta-freescale-3rdparty"    remote="community"     path="sources/meta-freescale-3rdparty"    revision="3358b11ef81d52b9c9972d454dd43c120cbbdaf5" upstream="master"/>
-  <project name="meta-freescale-distro"      remote="community"     path="sources/meta-freescale-distro"      revision="70b7591ecaa99cb6366f93ee05df7c38d94d724b" upstream="master"/>
-  <project name="meta-freescale-ml"          remote="community"     path="sources/meta-freescale-ml"          revision="1330790bc6cdd3808260a16383d928e05a0e0eeb" upstream="master"/>
+  <project name="meta-freescale"             remote="community"     path="sources/meta-freescale"             revision="fe38e65a09ccddf921a2ece98ac7af7b12df5183" upstream="wrynose"/>
+  <project name="meta-freescale-3rdparty"    remote="community"     path="sources/meta-freescale-3rdparty"    revision="26d8b36a72acf1458a2520e4e9f4d654a4ba77e4" upstream="wrynose"/>
+  <project name="meta-freescale-distro"      remote="community"     path="sources/meta-freescale-distro"      revision="4464f38b4aa618b5942f5e35dd25cff590f410a6" upstream="wrynose"/>
+  <project name="meta-freescale-ml"          remote="community"     path="sources/meta-freescale-ml"          revision="1330790bc6cdd3808260a16383d928e05a0e0eeb" upstream="wrynose"/>
 
   <project name="meta-arm"                   remote="yp"            path="sources/meta-arm"                   revision="4112fda50b814ad6e3cfaefe5cad78a83114599a" upstream="master"/>
   <project name="meta-qt6"                   remote="qt"            path="sources/meta-qt6"                   revision="3cd8b59a1303b3c079f5345c6b2555d1037925f6" upstream="6.11.0"/>
   <project name="meta-browser"               remote="ossystems"     path="sources/meta-browser"               revision="407e3ac990f5ed466cb76e5002f918860503799c" upstream="wrynose"/>
-  <project name="meta-security"              remote="yp"            path="sources/meta-security"              revision="9265f142f3890df2d00d71d13b19e95a082707ed" upstream="wrynose"/>
+  <project name="meta-security"              remote="yp"            path="sources/meta-security"              revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" upstream="wrynose"/>
   <project name="meta-timesys"               remote="timesys"       path="sources/meta-timesys"               revision="240d59556180ff72efbfd105393abdee544f7282" upstream="master"/>
   <project name="meta-virtualization"        remote="yp"            path="sources/meta-virtualization"        revision="022f4356d4a9b389f51472d40a9330aa59f6bb9a" upstream="master"/>
 
@@ -44,8 +44,8 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="imx_matter_2026_q1-post"/>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="wrynose-6.18.20-2.0.0"/>
 
-  <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="5fa2d690617d859e125ccaba13f0869be89547d4" upstream="wrynose"/>
-  <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="2afe79bd8ecfbcb68b7707d340cd75c03da744f5" upstream="wrynose"/>
+  <project name="meta-swupdate"              remote="sbabic"        path="sources/meta-swupdate"              revision="c0658455606b3a37d85d7cf03703d8b8d2ead667" upstream="wrynose"/>
+  <project name="meta-mender"                remote="mender"        path="sources/meta-mender"                revision="acc45e431e1aa6360a78c182a8c2578bd43af990" upstream="wrynose"/>
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="edf0ab880bbb14ed1c54f0db919cb72a8c0e5096" upstream="wrynose_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="75e8bee124d80f5c289ba422dddd64cf8c134e69" upstream="wrynose_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="69cf053f7c427b151cd0e5e86b91b73e1dacc270" upstream="wrynose_var01"/>
