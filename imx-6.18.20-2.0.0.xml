@@ -53,7 +53,7 @@
   <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="219551a83112284c1488a9678dc5dddbfd515d99" upstream="wrynose_6.18.20_2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
   </project>
-  <project name="variscite-bsp-base"         remote="variscite"     path="sources/base"                       revision="31234592b3e05e137ee80d7435dea6042306382c" upstream="wrynose_var01">
+  <project name="variscite-bsp-base"         remote="variscite"     path="sources/base"                       revision="11467a97e4896f7c6f901be06c061093614603b5" upstream="wrynose_var01">
     <linkfile src="setup-environment"              dest="setup-environment"/>
     <linkfile src="README"                         dest="README"/>
     <linkfile src="scripts/var-start-container.sh" dest="var-start-container.sh"/>
