@@ -6,7 +6,7 @@
   <remote name="imx-linux-sdk" fetch="https://github.com/nxp-imx" review=""/>
 
   <remove-project name="ti-linux-kernel/ti-linux-kernel" path="common"/>
-  <project groups="ti" name="ti-linux-kernel" path="common" remote="varigit" revision="e076c1ac6005fd47662edbe7010220e5e4cd1ad1"/>
+  <project groups="ti" name="ti-linux-kernel" path="common" remote="varigit" revision="95c0cadf55bb65587d5f8e2a33de66ea13e2d103"/>
 
   <remove-project name="ti-linux-kernel/ti-linux-kernel" path="ti-linux-kernel"/>
   <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="f58f901221e702e0057957a1c416c0cf6a0f6de3"/>
