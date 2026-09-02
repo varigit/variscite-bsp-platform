@@ -50,7 +50,7 @@
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="7c47b749bbb6f1e37487b309d3d2c6e1f99f1a4c" upstream="wrynose_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="69cf053f7c427b151cd0e5e86b91b73e1dacc270" upstream="wrynose_var01"/>
   <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="2371fd904776838db31d2731f2ec0d6b09b58e76" upstream="wrynose_6.18.20_2.0.0_var01"/>
-  <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="afac5022fbff7c7f7361e2d19ac8e5d7d1df76f6" upstream="wrynose_6.18.20_2.0.0_var01">
+  <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="fdc1d3ae3448baec564e5e1068aef6f6c99b3ba8" upstream="wrynose_6.18.20_2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
   </project>
   <project name="variscite-bsp-base"         remote="variscite"     path="sources/base"                       revision="11467a97e4896f7c6f901be06c061093614603b5" upstream="wrynose_var01">
