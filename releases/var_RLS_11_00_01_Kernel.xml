@@ -9,7 +9,7 @@
   <project groups="ti" name="ti-linux-kernel" path="common" remote="varigit" revision="b9f332834d602329d75987b1b9fc85aa00d4b77a"/>
 
   <remove-project name="ti-linux-kernel/ti-linux-kernel" path="ti-linux-kernel"/>
-  <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="bde7dc37bc1ce89acafaf08fb014285e4b4854d4"/>
+  <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="425ed6e9b8a02e30c861814c8b67808350d92f94"/>
 
   <remove-project name="android/kernel-ti-device/"/>
   <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="b95aff0462106857721d9fd820a5727e19e420f9">
