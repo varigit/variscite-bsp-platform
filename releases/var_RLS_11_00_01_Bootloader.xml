@@ -5,5 +5,5 @@
   <remote name="varigit" fetch="https://github.com/varigit" review=""/>
 
   <remove-project name="ti-u-boot/ti-u-boot.git"/>
-  <project name="ti-u-boot" path="u-boot" remote="varigit" revision="eb8b3dd1abee12782680b68f8735a792965effb3"/>
+  <project name="ti-u-boot" path="u-boot" remote="varigit" revision="916a10a3358a7897bc37fca8864039e1fd89a524"/>
 </manifest>
