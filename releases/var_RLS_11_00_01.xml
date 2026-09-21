@@ -9,4 +9,5 @@
     <linkfile dest="var-create-release-package.sh" src="var-create-release-package.sh"/>
   </project>
   <project name="imx-firmware" path="vendor/nxp/imx-firmware" remote="imx-linux-sdk" revision="refs/tags/android-16.0.0_1.2.0"/>
+  <project name="bcm_4343w_fw" path="vendor/variscite/bcm_4343w_fw" remote="varigit" revision="12.29.0.22"/>
 </manifest>
