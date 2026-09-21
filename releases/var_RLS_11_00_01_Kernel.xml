@@ -12,7 +12,7 @@
   <project groups="ti" name="ti-linux-kernel" path="ti-linux-kernel" remote="varigit" revision="425ed6e9b8a02e30c861814c8b67808350d92f94"/>
 
   <remove-project name="android/kernel-ti-device/"/>
-  <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="b95aff0462106857721d9fd820a5727e19e420f9">
+  <project groups="ti" name="android-kernel-ti-device" path="private/devices/ti/am6x/" remote="varigit" revision="103b3116482aeeb47ab66e7728ba39109feaa8ed">
     <linkfile dest="device.bazelrc" src="device.bazelrc"/>
     <linkfile dest="WORKSPACE" src="bazel.WORKSPACE"/>
     <linkfile dest="update_symbol_list.sh" src="tools/update_symbol_list.sh"/>
