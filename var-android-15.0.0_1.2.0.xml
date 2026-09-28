@@ -6,7 +6,7 @@
 <remote name="var-github" fetch="https://github.com/varigit/" review="" />
 
 <!-- For varigit .-->
-<project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="559fb6c3e5b923d14f2d89bd8793f74f34c171c6" />
+<project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="631d8600be7b9874d8e4d971ae145ce1266dd009" />
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="264eff668adf9e2bd39c0a0f59a0af2715f8b45e" />
 <project path="device/variscite" name="MX6x-android" remote="var-github" revision="37f840ccecf3ca64b6abdefed9290ffebe4368d1" >
   <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
