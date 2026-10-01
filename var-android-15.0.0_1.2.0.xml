@@ -18,7 +18,7 @@
 <remove-project name="imx-mkimage" />
 <project path="vendor/variscite/imx-mkimage" name="imx-mkimage" remote="var-github" revision="58f79e33fb27d474dd378ca7a3ab9b32a2c2fe00" />
 <project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="bfb3d04b183cb0a2a0bef670f2fe55c1f680cb46" />
-<project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="3b61eb749b7cdce0788974c1640376771518b81d" />
+<project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="0bcdf14e03b0f0308024eb18750e517c5b761374" />
 
 <!-- NXP repo -->
 <remove-project name="imx-firmware" />
