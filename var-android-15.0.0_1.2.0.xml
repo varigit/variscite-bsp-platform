@@ -8,7 +8,7 @@
 <!-- For varigit .-->
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="a9e7dfe9bde27dd74e0957b81f56160df98ca38b" />
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="8765e414bd4e33ee171ba2f31e34eaea76442228" />
-<project path="device/variscite" name="MX6x-android" remote="var-github" revision="ad72d46ec839f26775dbdb894db4c0436b6ff30a" >
+<project path="device/variscite" name="MX6x-android" remote="var-github" revision="d80ad0e50cdd2eaf50de1aa6b13a169dfbed26df" >
   <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
   <linkfile dest="var-create-release-package.sh" src="var-create-release-package.sh"/>
 </project>
