@@ -49,7 +49,7 @@
   <project name="meta-variscite-bsp-common"  remote="variscite"     path="sources/meta-variscite-bsp-common"  revision="233fda88218170ad059f085c89c3620b686dafed" upstream="wrynose_var01"/>
   <project name="meta-variscite-hab"         remote="variscite"     path="sources/meta-variscite-hab"         revision="84c982942b4e41755cd93f1c34c33498c8e7a2d9" upstream="wrynose_var01"/>
   <project name="meta-variscite-sdk-common"  remote="variscite"     path="sources/meta-variscite-sdk-common"  revision="69cf053f7c427b151cd0e5e86b91b73e1dacc270" upstream="wrynose_var01"/>
-  <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="4113f5a8053b3fabe60732c5c205c7f07d989a37" upstream="wrynose_6.18.20_2.0.0_var01"/>
+  <project name="meta-variscite-bsp-imx"     remote="variscite"     path="sources/meta-variscite-bsp-imx"     revision="0adc86767cf12ef83a29310f2665eaf1951a9493" upstream="wrynose_6.18.20_2.0.0_var01"/>
   <project name="meta-variscite-sdk-imx"     remote="variscite"     path="sources/meta-variscite-sdk-imx"     revision="cd09fe3198d3c445658f68b0ddc96e31aa064486" upstream="wrynose_6.18.20_2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh"   dest="var-setup-release.sh"/>
   </project>
