@@ -17,6 +17,6 @@
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="01083a64ebf28cc716efe2d2fd51c141042ae34b" />
 <project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="32c395d7fa389fcb1df13054f7a7edfafb46215f" />
 <project path="vendor/variscite/var-mii" name="var-mii" remote="var-github" revision="b66af0006e645b4da4556cfbaea8ad23fa92ced1" />
-<project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="4aca531f59c90fb09751ef4c3ffbcbd201dfbfe1" />
+<project path="var-docker" name="var-host-docker-containers" remote="var-github" revision="46333a4d3929fba97d02e16ad04b69f667b2b5c6" />
 
 </manifest>
