@@ -6,7 +6,7 @@
 <remote name="var-github" fetch="https://github.com/varigit/" review="" />
 
 <!-- For varigit .-->
-<project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="815273d83a4e0c67e47b9d8b73f08887d817b1d8" />
+<project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="8336b5331fcfe47df1e1734732fd177af3de9fb0" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="edd942df5facdc208bd14aa6c60f57833856ece0" />
 <project path="vendor/variscite/imx-mkimage" name="imx-mkimage" remote="var-github" revision="48ff2ef85b43cac920d8c0144880a37a42c48ced" />
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="d6acf4d2de419a1d3d54a78bbd0b8f5a0bfa0334" />
