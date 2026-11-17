@@ -13,6 +13,7 @@
 <project path="device/variscite" name="MX6x-android" remote="var-github" revision="d559a0aebd03f815c468c483845f40341aa5bdeb" >
   <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
   <linkfile dest="var-create-release-package.sh" src="var-create-release-package.sh"/>
+  <linkfile dest="var-mksdcard.sh" src="scripts/sh/var-mksdcard.sh"/>
 </project>
 <project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="01083a64ebf28cc716efe2d2fd51c141042ae34b" />
 <project path="vendor/variscite/bcm_4343w_fw" name="bcm_4343w_fw" remote="var-github" revision="32c395d7fa389fcb1df13054f7a7edfafb46215f" />
