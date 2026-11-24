@@ -10,7 +10,7 @@
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="a569dcf8d2d34c052fba1eb07e0e1d70b4e2322c" />
 <project path="vendor/variscite/imx-mkimage" name="imx-mkimage" remote="var-github" revision="48ff2ef85b43cac920d8c0144880a37a42c48ced" />
 <project path="vendor/variscite/imx-oei" name="imx-oei" remote="var-github" revision="539ab0759cdf8aa658d26ccb095333a87a0ab925" />
-<project path="vendor/variscite/imx-sm" name="imx-sm" remote="var-github" revision="d64248f0d565f313551f35f6cfafbc051eefa72c" />
+<project path="vendor/variscite/imx-sm" name="imx-sm" remote="var-github" revision="065d8e39dab61ead9023f5be3f12e7e47c16351a" />
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="5ee4c12ac24665590e4f0b4378dd1a43d78a1c4d" />
 <project path="device/variscite" name="MX6x-android" remote="var-github" revision="64922c7449e0ce02cd801e18028019c306beb935" >
   <linkfile dest="var-start-container.sh" src="var-start-container.sh"/>
